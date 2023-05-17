@@ -91,3 +91,60 @@ a:focus {
     color: #fff !important;
     background-color: #9966cc !important;
 }
+
+ .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+        #services {
+        background-color: #f9f9f9;
+        padding: 60px 0;
+    }
+
+    #services h2 {
+        color: #333;
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        border: none;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card-img-top {
+        object-fit: cover;
+        height: 300px;
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .card-body {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .card-text {
+        color: #777;
+        font-size: 16px;
+    }
+    
+    .card-deck .card:not(:last-child) {
+        margin-bottom: 30px;
+    }
