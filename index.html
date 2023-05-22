@@ -1,130 +1,158 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-  <head>
 
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.111.3">
     <title>Starter Template · Bootstrap v5.3</title>
-
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/starter-template/">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- Remixicon Icon -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/f82f55b1d4.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-<div class="container">
-  <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
-    <a href="" class="d-flex align-items-center text-body-emphasis text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      <span class="fs-4">Starter template</span>
-    </a>
-  </header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
 
-  <main>
-    <div class="row g-5">
-      <div class="col-md-6">
-<img src="assets/images/IMG_1.jpg" class="img-fluid rounded">
-      </div>
+    <style type="text/css">
+      html,
+body {
+font-family: 'Quicksand', sans-serif;
+}  
+a {
+    border-bottom: 1px solid #0C0C0C ;
+    color: #444;
+    text-decoration: none;
+}
 
-      <div class="col-md-6">
-        <h2 class="text-body-emphasis">FROM PETALS TO PERFECTION: EXQUISITE FLORAL ARRANGEMENTS, TAILORED JUST FOR YOU</h2>
-        <p>
-Welcome to Elizabeth Rose Florals, your premier local florist serving Denver and the surrounding areas. With our exquisite floral arrangements and personalized service, we strive to bring nature's beauty and elegance into every occasion.</p>
-       <button type="button" class="btn btn-primary">Primary</button>
-      </div>
-    </div>
-    <div class="row" style="padding-left: calc(var(--bs-gutter-x) * .5);padding-right: calc(var(--bs-gutter-x) * .5);">
-                <div class="col-sm-4 border-start border-primary border-5 text-center" style="padding: 50px;"> <a href=""><i class="ri-mail-line"></i> elizabeth@elizabethroseflorals.com</a>
+a:hover {
+    border-bottom: 1px solid #000;
+    color: black;
+   
+    text-decoration: none;
+}
+
+a:focus {
+    border-bottom: 2px solid #0C0C0C;
+    color: #444;
+    text-decoration: none;
+}
+.border-primary {
+    border-color: #eddafd!important;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0d6efd;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex align-items-center mb-3 pt-3">
+          
+              <img src="assets/images/logo.jpg" style="width: 150px;">
+           
+           
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="assets/images/homepage_image.jpg" class="img-fluid rounded">
                 </div>
-                <div class="col-sm-4  border-start border-primary border-5 text-center" style="padding: 50px;"> <a href=""><i class="ri-instagram-line"></i> @elizabethroseflorals</a>
-                </div>
-                <div class="col-sm-4 border-start border-primary border-5 text-center" style="padding: 50px;"> <a href=""><i class="ri-survey-line"></i> Event Request Form</a>
+                <div class="col-md-6 ">
+                   
+                    <h4>
+                       Welcome to Elizabeth Rose Florals, a local florist serving Centennial and the surrounding areas. We create personalized, delicately handcrafted floral designs to bring your vision and style to life. Signup today and get a limited time 10% off offer.</h4>
+                    <a href="#signup" type="button" class="btn btn-primary">Primary</a>
+                     <div class="col-md-12 mt-3">
+                            <p>
+                                <i class="fa fa-envelope fa-1x"></i> <a href="">elizabeth@elizabethroseflorals.com</a>
+                                <p>
+                                    <i class="fa fa-instagram fa-1x"></i> <a href="">@elizabethroseflorals</a> <span class="badge rounded-pill text-bg-primary">view my work</span>
+                                    <p>
+                                        <i class="fa fa-file-lines fa-1x"></i> <a href="">Event request form</a>
+                        </div>
+                        
                 </div>
             </div>
-<hr class="border border-primary border-2 opacity-100">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2 class="text-body-emphasis">Services</h2>
-<p>Our services include stunning wedding floral designs, heartfelt sympathy arrangements, and vibrant bouquets for any special event or celebration in Denver and the surrounding areas.</p>
-      </div>
-    </div>
-    <!-- Gallery -->
-<div class="row">
-  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
+     
+            <hr class="border border-primary border-2 opacity-50">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="text-body-emphasis">Services</h2>
+                    <p>Our services include wedding and event floral designs for any special occasion in Centennial and the surrounding areas.</p>
+                </div>
+            </div>
+            <!-- Gallery -->
 
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Wintry Mountain Landscape"
-    />
-  </div>
+                    <!-- Row  -->
+        <div class="row">
+            <!-- Column -->
+            <div class="col-md-4 mb-4">
+                <div class="">
+                    <img class="rounded img-fluid" src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature2/market.jpg" alt="wrappixel kit" />
+                    <div class="mt-4">
+                        <h6 class="font-weight-medium">Retargeting Market</h6>
+                        <p class="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                        <a href="javascript:void(0)" class="linking">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Column -->
+            <div class="col-md-4 mb-4">
+                <div class="">
+                    <img class="rounded img-fluid" src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature2/fruit.jpg" alt="wrappixel kit" />
+                    <div class="mt-4">
+                        <h6 class="font-weight-medium">Fruitful Results</h6>
+                        <p class="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                        <a href="javascript:void(0)" class="linking">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Column -->
+            <div class="col-md-4 mb-4">
+                <div class="">
+                    <img class="rounded img-fluid" src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature2/instant.jpg" alt="wrappixel kit" />
+                    <div class="mt-4">
+                        <h6 class="font-weight-medium">Instant Solutions</h6>
+                        <p class="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                        <a href="javascript:void(0)" class="linking">Learn More</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-md-12 mt-3 text-center">
+                <a class="btn  btn-primary"><span>View Portfolio</span></a>
+            </div>
+        </div>
 
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Mountains in the Clouds"
-    />
 
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Waves at Sea"
-    />
-
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
-    />
-  </div>
-</div>
-<!-- Gallery -->
-
-   <hr class="border border-primary border-2 opacity-100">
+            <hr class="border border-primary border-2 opacity-50">
             <div class="row row-gap-3">
                 <div class="col-md-6 d-md-none">
                     <img src="images/SMS_6425.jpg" class="img-fluid text-center rounded">
                 </div>
-                <div class="col-md-6" style="border-top-left-radius: 37px 140px;
-  border-top-right-radius: 23px 130px;
-  border-bottom-left-radius: 110px 19px;
-  border-bottom-right-radius: 120px 24px;
-
-  display: block;
-  position: relative;
-  border: solid 3px #6e7491;
-  padding: 40px 60px;
-  max-width: 800px;
-/*  width: 70%;*/
-/*  margin: 100px auto 0;*/
-  font-size: 17px;
-  line-height: 28px;
-  transform: rotate(-1deg);
-  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
-  transition: all 0.13s ease-in;
-  font-size: 24px; font-family: 'Give You Glory', cursive;">
+                <div class="col-md-6">
                     <h1 class="text-center">Hello there!</h1>
-                    <i>
-                        My name is Elizabeth and I am the founder, owner, and lead designer at Elizabeth Rose Florals, LLC.
+                
+                        My name is Elizabeth and I am the founder, owner, and lead designer at Elizabeth Rose Florals.
                         My desire to join the floral community was spurred by my passion for gardening, the nostalgic, childhood memories of my mom’s garden, and my appreciation for the way flowers emulate emotions. After moving to the beautiful state of Colorado with my husband and doggo, I started my floral endeavor
                         <p>
                             <div class="text-end">…and here we are!</div>
@@ -134,68 +162,55 @@ Welcome to Elizabeth Rose Florals, your premier local florist serving Denver and
                                     <p>
                                         I am a big believer in protecting mother nature. I recycle and use sustainable products as much as possible, source locally-grown flowers to the fullest extent, and my designs do not include floral foam, spray paint or dye.
                                         <p>
-                                            Happy flowering! </i>
+                                            Happy flowering!
                 </div>
                 <div class="col-md-6 d-none d-md-block">
-                    <img src="images/SMS_6425.jpg" class="img-fluid text-center rounded">
+                    <img src="assets/images/SMS_6425.jpg" class="img-fluid text-center rounded">
                 </div>
             </div>
-            </div>
- <!-- signup -->
-    <div class="" style="background-color: #E6E6FA;">
-        <div class="" id="signup" style="padding-top: 50px;padding-bottom: 50px;">
-          <div class="container">
-            <h2 class="text-body-emphasis text-center">Newsletter</h2>
-        <p class="text-center">
-Join our newsletter to receive a delightful bouquet of flower inspiration, seasonal specials, and personalized offers that will brighten your day and bring a touch of nature's beauty to your inbox. Signup today and get a <b>limited time 10% off offer.</p>
-        </div>
-         <div class="container">
-                <div class="col-sm-8 col-md-6 offset-md-3 offset-sm-2">
-                   
-
-                        <form action="https://elizabethroseflorals.us21.list-manage.com/subscribe/post?u=b0f7c67ba16d2ddcab06b1dd1&amp;id=feb079e082&amp;f_id=00cf54e1f0" method="post" target="_blank">
-  
-   <div class="mb-3">
-        <label for="mce-EMAIL">Email Address</label>
-        <input type="email" class="form-control" required="required" name="EMAIL" id="mce-EMAIL">
     </div>
-    <button type="submit" class="btn btn-primary"  style="width: 50%;"><i class="fa fa-envelope-o"></i> Subscribe</button>
-
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_97f1bc02efa56031b67a2b00f_fc7b4ce646" tabindex="-1" value=""></div>
-
-</form>
-
-
-                </div>
-               
-              </div>
-           
-        </div>
-    </div>
-  
     <!-- signup -->
-
-   
-  </main>
-  <footer class="pt-5 my-5 text-body-secondary border-top">
-  <div class="container text-center">
-            <div class="row">
-                <div class="col-sm-4"> <a href=""><i class="ri-mail-line"></i> elizabeth@elizabethroseflorals.com</a>
+     
+    <div class="mt-4" id="signup" style="background-color: #eddafd;">
+        <div class=""  style="padding-top: 50px;padding-bottom: 50px;">
+            <div class="container">
+                <h2 class="text-body-emphasis text-center">Newsletter</h2>
+                <p class="text-center">
+                Sign up  for the newsletter to receive updates and get a <b>limited time 10% off offer</b>.</p>
+            </div>
+            <div class="container">
+                <div class="col-sm-8 col-md-6 offset-md-3 offset-sm-2">
+                    <form action="https://elizabethroseflorals.us21.list-manage.com/subscribe/post?u=b0f7c67ba16d2ddcab06b1dd1&amp;id=feb079e082&amp;f_id=00cf54e1f0" method="post" target="_blank">
+                        <div class="mb-3">
+                            <label for="mce-EMAIL">Email Address</label>
+                            <input type="email" class="form-control" required="required" name="EMAIL" id="mce-EMAIL">
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 50%;"><i class="fa fa-envelope-o"></i> Subscribe</button>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_97f1bc02efa56031b67a2b00f_fc7b4ce646" tabindex="-1" value=""></div>
+                    </form>
                 </div>
-                <div class="col-sm-4"> <a href=""><i class="ri-instagram-line"></i> @elizabethroseflorals</a>
+            </div>
+        </div>
+    </div>
+    <!-- signup -->
+    </main>
+    <footer class=" my-5 ">
+        <div class="container text-center">
+            <div class="row pb-3">
+                <div class="col-sm-3 pt-3"> <a href=""><i class="ri-mail-line"></i> elizabeth@elizabethroseflorals.com</a>
                 </div>
-                <div class="col-sm-4"> <a href=""><i class="ri-survey-line"></i> Event Request Form</a>
+                <div class="col-sm-3 pt-3"> <a href=""><i class="ri-instagram-line"></i> @elizabethroseflorals</a>
+                </div>
+                <div class="col-sm-3 pt-3"> <a href=""><i class="ri-survey-line"></i> Event Request Form</a>
+                </div>
+                    <div class="col-sm-3 pt-3"> <a href=""><i class="ri-survey-line"></i> 720.507.4908</a>
                 </div>
             </div>
             <span class="ds-copyright">© 2023 Elizabeth Rose Florals, LLC.</span>
             </span>
         </div>
-  </footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
 
-
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
-      
-  </body>
 </html>
