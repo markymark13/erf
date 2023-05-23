@@ -60,6 +60,73 @@ a:focus {
     --bs-btn-disabled-bg: #0d6efd;
     --bs-btn-disabled-border-color: #0d6efd;
     }
+    .ds-banner {
+    background-color: #eddafd;
+    padding: 100px;
+    padding-right: 340px;
+    padding-bottom: 62px;
+}
+.ds-banner-section figure {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 440px;
+}
+.ds-banner-section .row {
+    position: relative;
+}
+
+/*-------------------------------------------------------------------------------
+ Responsive XS Style @media (max-width: 767px) 
+-------------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .ds-header-inner{ text-align: center; }
+  .ds-logo{ padding: 25px 0; }
+  .ds-banner{ padding: 40px; }
+  .ds-banner-section figure{ position: static;transform: none; }
+  .ds-main-heading{ font-size: 40px; line-height: 43px;margin-bottom: 30px; }
+  .ds-main-heading br{ display: none; }
+  .ds-banner p, .ds-book-content p, .ds-book-list p{ margin-bottom: 20px; }
+  .ds-banner-section .col-12{ order: 2; margin-top: 30px; }
+  .ds-book-section,.ds-book-listing-section{ padding-top: 60px; }
+  .ds-sub-heading{ font-size: 30px; line-height: 32px; margin-bottom: 15px; }
+  .ds-book-content ul li{ font-size: 16px; line-height: 20px; }
+  .ds-book-content ul{ margin-left: 0; margin-top:10px; }
+  .ds-book-list figure{ margin-bottom: 30px; }
+  .ds-book-list{ margin-bottom:40px; }
+  .ds-book-list:nth-child(2n+2) .ds-book-list-img{ order: 1; }
+  .ds-book-list:nth-child(2n+2) .ds-book-list-content{ order: 2; }
+  .ds-about-content{ padding-left: 0; padding-top: 40px; }
+  .ds-about-content p{ font-size: 16px; line-height: 30px;margin-bottom: 10px; }
+  .ds-about-content .ds-sub-heading {margin-bottom: 20px;}
+  .ds-about-info {padding-top: 0;}
+  .ds-about-section{ padding-bottom: 60px; }
+  .ds-reviews-section header .ds-sub-heading {margin-bottom: 15px;}
+  .reviews-list-section {padding-top: 20px;}
+  .ds-reviews-loop{ margin-bottom: 40px; }
+  .ds-reviews-section{ padding-bottom: 30px; }
+  .ds-book-add-section{ padding: 60px 20px; }
+  .ds-book-add-section h2{ font-size: 40px; line-height: 45px;margin-bottom: 50px; }
+  .ds-book-add-section h2 br{ display: none; }
+  .ds-footer{ padding: 40px 15px; }
+
+  .ds-banner-section,.ds-book-section,.ds-about-section,.ds-reviews-section{ padding-left: 12px; padding-right: 12px; }
+  .ds-reviews-section header,.ds-banner-section figure,.ds-book-list figure{ width: 100%; }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.ds-banner-section .col-12,.ds-book-section .col-md-10{ width: 100%; }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .ds-banner{ padding-left: 30px; padding-top: 40px; padding-bottom: 40px; padding-right: 290px; }
+  .ds-book-list figure {width: 100%;}
+  .ds-main-heading br{ display: none; }
+}
 
     </style>
 </head>
@@ -73,29 +140,33 @@ a:focus {
            
         </header>
         <main>
-            <div class="row">
-                <div class="col-md-6 text-center">
-                    <img src="assets/images/homepage_image.jpg" class="img-fluid rounded">
-                </div>
-                <div class="col-md-6 ">
-                   
-                    <h4>
-                       Welcome to Elizabeth Rose Florals, a local florist serving Centennial and the surrounding areas. We create personalized, delicately handcrafted floral designs to bring your vision and style to life. Signup today and get a limited time 10% off offer.</h4>
-                    <a href="#signup" type="button" class="btn btn-primary">Primary</a>
-                     <div class="col-md-12 mt-3">
-                            <p>
-                                <i class="fa fa-envelope fa-1x"></i> <a href="">elizabeth@elizabethroseflorals.com</a>
-                                <p>
-                                    <i class="fa fa-instagram fa-1x"></i> <a href="">@elizabethroseflorals</a> <span class="badge rounded-pill text-bg-primary">view my work</span>
-                                    <p>
-                                        <i class="fa fa-file-lines fa-1x"></i> <a href="">Event request form</a>
-                        </div>
-                        
-                </div>
-            </div>
+      <div class="ds-banner-section">
      
-            <hr class="border border-primary border-2 opacity-50">
             <div class="row">
+                <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                    <div class="ds-banner">
+                        <h1 class="ds-main-heading">  Elizabeth Rose Florals</h1>
+                        <p>A local florist serving Centennial and the surrounding areas with personalized and delicately handcrafted floral designs. Signup today and get a limited time 10% off offer.</p>
+                         <a href="#signup" type="button" class="btn btn-light">Let's Talk Flowers <i class="ri-arrow-right-line"></i></a>
+                     <div class="col-md-12 my-4">
+                            <p>
+                                <i class="ri-mail-line"></i> <a href="">elizabeth@elizabethroseflorals.com</a>
+                                <p>
+                                     <i class="ri-instagram-line"></i> <a href="">@elizabethroseflorals</a>
+                                    <p>
+                                        <i class="ri-survey-line"></i> <a href="">Event request form</a>
+                        </div>
+                    </div>
+                </div>
+                <figure><img class="rounded mx-auto d-block" src="assets/images/homepage_image.jpg" width="" height="400" alt="banner-image"></figure>
+            </div>
+      
+      </div>
+
+
+     
+           
+            <div class="row my-4">
                 <div class="col-md-12 text-center">
                     <h2 class="text-body-emphasis">Services</h2>
                     <p>Our services include wedding and event floral designs for any special occasion in Centennial and the surrounding areas.</p>
@@ -108,9 +179,20 @@ a:focus {
             <!-- Column -->
             <div class="col-md-4 mb-4">
                 <div class="">
-                    <img class="rounded img-fluid" src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature2/market.jpg" alt="wrappixel kit" />
+                    <img class="rounded mx-auto d-block" height="300" src="assets/images/1.jpg" alt="" />
                     <div class="mt-4">
-                        <h6 class="font-weight-medium">Retargeting Market</h6>
+                        <h6 class="font-weight-medium">Events</h6>
+                        <p class="mt-3">Text</p>
+                        <a href="javascript:void(0)" class="linking">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Column -->
+            <div class="col-md-4 mb-4">
+                <div class="">
+                    <img class="rounded mx-auto d-block" height="300" src="assets/images/6.jpg" alt="" />
+                    <div class="mt-4">
+                        <h6 class="font-weight-medium">Bouquets</h6>
                         <p class="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
                         <a href="javascript:void(0)" class="linking">Learn More</a>
                     </div>
@@ -119,38 +201,27 @@ a:focus {
             <!-- Column -->
             <div class="col-md-4 mb-4">
                 <div class="">
-                    <img class="rounded img-fluid" src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature2/fruit.jpg" alt="wrappixel kit" />
+                    <img class="rounded mx-auto d-block" height="300" src="assets/images/2.jpg" alt="" />
                     <div class="mt-4">
-                        <h6 class="font-weight-medium">Fruitful Results</h6>
-                        <p class="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
-                        <a href="javascript:void(0)" class="linking">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Column -->
-            <div class="col-md-4 mb-4">
-                <div class="">
-                    <img class="rounded img-fluid" src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature2/instant.jpg" alt="wrappixel kit" />
-                    <div class="mt-4">
-                        <h6 class="font-weight-medium">Instant Solutions</h6>
+                        <h6 class="font-weight-medium">Corporate</h6>
                         <p class="mt-3">You can relay on our amazing features list and also our customer services will be great experience.</p>
                         <a href="javascript:void(0)" class="linking">Learn More</a>
                     </div>
                 </div>
             </div>
                         <div class="col-md-12 mt-3 text-center">
-                <a class="btn  btn-primary"><span>View Portfolio</span></a>
+                <a class="btn  btn-light"><span>View Portfolio</span></a>
             </div>
         </div>
 
 
             <hr class="border border-primary border-2 opacity-50">
             <div class="row row-gap-3">
-                <div class="col-md-6 d-md-none">
-                    <img src="images/SMS_6425.jpg" class="img-fluid text-center rounded">
+                 <div class="col-md-6" >
+                    <img src="assets/images/SMS_6425.jpg" class="img-fluid text-center rounded">
                 </div>
-                <div class="col-md-6">
-                    <h1 class="text-center">Hello there!</h1>
+                <div class="col-md-6" >
+                    <h2 class="text-center">Hello there!</h2>
                 
                         My name is Elizabeth and I am the founder, owner, and lead designer at Elizabeth Rose Florals.
                         My desire to join the floral community was spurred by my passion for gardening, the nostalgic, childhood memories of my mom’s garden, and my appreciation for the way flowers emulate emotions. After moving to the beautiful state of Colorado with my husband and doggo, I started my floral endeavor
@@ -164,9 +235,7 @@ a:focus {
                                         <p>
                                             Happy flowering!
                 </div>
-                <div class="col-md-6 d-none d-md-block">
-                    <img src="assets/images/SMS_6425.jpg" class="img-fluid text-center rounded">
-                </div>
+                
             </div>
     </div>
     <!-- signup -->
@@ -185,7 +254,7 @@ a:focus {
                             <label for="mce-EMAIL">Email Address</label>
                             <input type="email" class="form-control" required="required" name="EMAIL" id="mce-EMAIL">
                         </div>
-                        <button type="submit" class="btn btn-primary" style="width: 50%;"><i class="fa fa-envelope-o"></i> Subscribe</button>
+                        <button type="submit" class="btn btn-light" style="width: 50%;"><i class="fa fa-envelope-o"></i> Subscribe</button>
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_97f1bc02efa56031b67a2b00f_fc7b4ce646" tabindex="-1" value=""></div>
                     </form>
                 </div>
@@ -197,14 +266,13 @@ a:focus {
     <footer class=" my-5 ">
         <div class="container text-center">
             <div class="row pb-3">
-                <div class="col-sm-3 pt-3"> <a href=""><i class="ri-mail-line"></i> elizabeth@elizabethroseflorals.com</a>
+                <div class="col-sm-4 pt-3"> <i class="ri-mail-line"></i> <a href="">elizabeth@elizabethroseflorals.com</a>
                 </div>
-                <div class="col-sm-3 pt-3"> <a href=""><i class="ri-instagram-line"></i> @elizabethroseflorals</a>
+                <div class="col-sm-4 pt-3"> <i class="ri-instagram-line"></i> <a href="">@elizabethroseflorals</a>
                 </div>
-                <div class="col-sm-3 pt-3"> <a href=""><i class="ri-survey-line"></i> Event Request Form</a>
+                <div class="col-sm-4 pt-3"> <i class="ri-survey-line"></i> <a href="">Event Request Form</a>
                 </div>
-                    <div class="col-sm-3 pt-3"> <a href=""><i class="ri-survey-line"></i> 720.507.4908</a>
-                </div>
+                    
             </div>
             <span class="ds-copyright">© 2023 Elizabeth Rose Florals, LLC.</span>
             </span>
