@@ -71,6 +71,10 @@
                     a.nocolor, a.nocolor:hover {
     color: inherit;
 }
+.navbar-brand h3 {
+
+    margin-bottom: 0;
+}
 
 /* ======= Default style ======= */
 html,
@@ -1386,7 +1390,7 @@ object-fit: cover;
     background: rgba(0, 0, 0, 0.1);
 }
 .gallery-box:hover .gallery-img > img {
-    transform: scale(1.05);
+/*    transform: scale(1.05);*/
 }
 
 
