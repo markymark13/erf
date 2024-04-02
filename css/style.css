@@ -753,7 +753,7 @@ display: block;
 .banner-header {
     height: 20vh;
     background-position: center;
-    margin-top: 105px;
+    margin-top: 80px;
 }
 .banner-header h1 {
     font-size: 45px;
@@ -767,7 +767,7 @@ display: block;
 @media screen and (max-width: 767px) {
     .banner-header {
 /*        height: 50vh;*/
-        margin-top: 105px;
+/*        margin-top: 105px;*/
     }
     .banner-header h1 {
         font-size: 35px;
