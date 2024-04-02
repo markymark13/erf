@@ -75,6 +75,10 @@
 
     margin-bottom: 0;
 }
+.m-modal .m-modal-content .m-title {
+font-size: 14px;
+}
+
 
 /* ======= Default style ======= */
 html,
