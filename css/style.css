@@ -78,6 +78,10 @@
 .m-modal .m-modal-content .m-title {
 font-size: 14px;
 }
+ul {
+    list-style-type: circle;
+}
+
 
 
 /* ======= Default style ======= */
