@@ -50,7 +50,7 @@
                 infinite: true
                 , dots: false
                 , autoplay: true
-                , speed: 8000
+                , speed: 3000
                 , arrows: true
                 , slidesToShow: 3
                 , slidesToScroll: 1
