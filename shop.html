@@ -29,82 +29,79 @@
         object-fit: cover;
     }
 
-    .alert-message
-{
-    margin: 20px 0;
-    padding: 20px;
-    border-left: 3px solid #eee;
-}
-.alert-message h4
-{
-    margin-top: 0;
-    margin-bottom: 5px;
-}
-.alert-message p:last-child
-{
-    margin-bottom: 0;
-}
-.alert-message code
-{
-    background-color: #fff;
-    border-radius: 3px;
-}
-.alert-message-success
-{
-    background-color: #F4FDF0;
-    border-color: #3C763D;
-}
-.alert-message-success h4
-{
-    color: #3C763D;
-}
-.alert-message-danger
-{
-    background-color: #fdf7f7;
-    border-color: #d9534f;
-}
-.alert-message-danger h4
-{
-    color: #d9534f;
-}
-.alert-message-warning
-{
-    background-color: #fcf8f2;
-    border-color: #f0ad4e;
-}
-.alert-message-warning h4
-{
-    color: #f0ad4e;
-}
-.alert-message-info
-{
-    background-color: #f4f8fa;
-    border-color: #5bc0de;
-}
-.alert-message-info h4
-{
-    color: #5bc0de;
-}
-.alert-message-default
-{
-    background-color: #EEE;
-    border-color: #B4B4B4;
-}
-.alert-message-default h4
-{
-    color: #000;
-}
-.alert-message-notice
-{
-    background-color: #FCFCDD;
-    border-color: #BDBD89;
-}
-.alert-message-notice h4
-{
-    color: #444;
-}
+    .alert-message {
+        margin: 20px 0;
+        padding: 20px;
+        border-left: 3px solid #eee;
+    }
 
+    .alert-message h4 {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
 
+    .alert-message p:last-child {
+        margin-bottom: 0;
+    }
+
+    .alert-message code {
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    .alert-message-success {
+        background-color: #F4FDF0;
+        border-color: #3C763D;
+    }
+
+    .alert-message-success h4 {
+        color: #3C763D;
+    }
+
+    .alert-message-danger {
+        background-color: #fdf7f7;
+        border-color: #d9534f;
+    }
+
+    .alert-message-danger h4 {
+        color: #d9534f;
+    }
+
+    .alert-message-warning {
+        background-color: #fcf8f2;
+        border-color: #f0ad4e;
+    }
+
+    .alert-message-warning h4 {
+        color: #f0ad4e;
+    }
+
+    .alert-message-info {
+        background-color: #f4f8fa;
+        border-color: #5bc0de;
+    }
+
+    .alert-message-info h4 {
+        color: #5bc0de;
+    }
+
+    .alert-message-default {
+        background-color: #EEE;
+        border-color: #B4B4B4;
+    }
+
+    .alert-message-default h4 {
+        color: #000;
+    }
+
+    .alert-message-notice {
+        background-color: #FCFCDD;
+        border-color: #BDBD89;
+    }
+
+    .alert-message-notice h4 {
+        color: #444;
+    }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQ39ND25FJ"></script>
@@ -136,7 +133,7 @@
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul class="navbar-nav ml-auto py-4 py-md-0">
                                             <li class="nav-item"> <a class="nav-link" href="index">Home</a></li>
-                                            <li class="nav-item active"> <a class="nav-link" href="shop">Shop <span class="badge badge-success">NEW!</span></a></li>
+                                            <li class="nav-item active"> <a class="nav-link" href="shop">Shop</a> <span class="badge badge-success">NEW!</span></li>
                                             <li class="nav-item"> <a class="nav-link" href="services">Services</a></li>
                                             <li class="nav-item"> <a class="nav-link" href="portfolio">Portfolio</a></li>
                                             <li class="nav-item"> <a class="nav-link" href="about">About</a></li>
@@ -161,39 +158,35 @@
             </div>
         </div>
     </div>
-    <!-- Pricing info -->
+    <!-- shop -->
     <div class="section">
         <div class="container">
-             <!-- if Removed add section-padding back -->
+            <!-- if Removed add section-padding back -->
             <div class="row mt-4 mb-60">
-               
-                
-            <div class="alert-message alert-message-success">
-                <h4>
-                    Introducing our new Shop!</h4>
-                <p>
-                   <h6> Shop One-time Bouquets or monthly subscriptions -- all with free delivery! Use Promo Code: <u>NEWSHOP</u> for 10% off your order!</h6>
-            </div>
-     
-
-            </div>
-            <div class="row mb-60">
-                <div class="col-md-4">
-                   
-                    
-                    
-                        <div class="img">
-                                    <img src="images/26.jpg" alt="">
-                                </div>
-                   
-               
-                </div>
-                <div class="col-md-8">
-            
-
-
+                <div class="alert-message alert-message-success">
+                    <h4>
+                        Introducing our new Shop!</h4>
                     <p>
-                        <h4>Illuminate Your Space with Fresh Flowers</h4> Dynamic arrangements delivered to a doorstep are the perfect way to to convey your message for any occasion. Our arrangements showcase locally grown flowers from Colorado during the growing season. Whether you’re a flower enthusiast, a business owner, or looking for a unique gift for loved ones, our flower subscription service and bouquet delivery is designed to brighten your day. Here’s what you need to know:
+                        <h6> Shop One-time Bouquets or monthly subscriptions -- all with free delivery! Use Promo Code: <u>NEWSHOP</u> for 10% off your order!</h6>
+                </div>
+            </div>
+
+            <!-- Stripe -->
+            <div class="row mb-60">
+                <div class="col-md-12">
+                    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+                    <stripe-pricing-table pricing-table-id="prctbl_1PsS8UIfZFPe5TxRiT0v1jjG" publishable-key="pk_live_51ProemIfZFPe5TxR6cZrawkEv0hMgyzwRPaUFJ68L7TLRUu5A9EraWyPDYMBJTrh8RuVZThNyC2jC7mPprjaSgPa00RAVUYaxN">
+                    </stripe-pricing-table>
+                </div>
+            </div>
+                <!-- shop info -->
+            <div class="row mb-60">
+         
+                <div class="col-md-12">
+                    <p>
+                        <h2 class="text-left">Illuminate Your Space with Fresh Flowers</h2>
+                            <hr class="line line-hr-left">
+                       Dynamic arrangements delivered to a doorstep are the perfect way to to convey your message for any occasion. Our arrangements showcase locally grown flowers from Colorado during the growing season. Whether you’re a flower enthusiast, a business owner, or looking for a unique gift for loved ones, our flower subscription service and bouquet delivery is designed to brighten your day. Here’s what you need to know:
                     </p>
                     <ul>
                         <li><i class="ti-check"></i> All bouquets are hand-crafted, unique, and affordable meticulously designed by a professional wedding florist.</li>
@@ -204,14 +197,6 @@
                         <li><i class="ti-check"></i> Free 2 day delivery</li>
                         <li><i class="ti-check"></i> Cancel anytime</li>
                     </ul>
-                </div>
-            </div>
-            <!-- Stripe -->
-            <div class="row">
-                <div class="col-md-12">
-                    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-                    <stripe-pricing-table pricing-table-id="prctbl_1PsS8UIfZFPe5TxRiT0v1jjG" publishable-key="pk_live_51ProemIfZFPe5TxR6cZrawkEv0hMgyzwRPaUFJ68L7TLRUu5A9EraWyPDYMBJTrh8RuVZThNyC2jC7mPprjaSgPa00RAVUYaxN">
-                    </stripe-pricing-table>
                 </div>
             </div>
         </div>
