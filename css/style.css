@@ -1149,7 +1149,7 @@ width: 100px;
     transform: translate(-50%, -50%);
     -webkit-transition: opacity .2s ease-out;
     transition: opacity .2s ease-out;
-    background-color: rgba(255, 255, 255,0.85);
+    background-color: rgba(255, 255, 255,0.80);
     width: 90%;
     height: 90%;
     flex-direction: column;
@@ -1160,7 +1160,7 @@ width: 100px;
 }
 .services-caption:hover {
  
-    background-color: rgba(255, 255, 255,0.85);
+    background-color: rgba(255, 255, 255,0.90);
    
 }
 .services-imghover {
