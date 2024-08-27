@@ -28,6 +28,83 @@
         width: 100% !important;
         object-fit: cover;
     }
+
+    .alert-message
+{
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 3px solid #eee;
+}
+.alert-message h4
+{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.alert-message p:last-child
+{
+    margin-bottom: 0;
+}
+.alert-message code
+{
+    background-color: #fff;
+    border-radius: 3px;
+}
+.alert-message-success
+{
+    background-color: #F4FDF0;
+    border-color: #3C763D;
+}
+.alert-message-success h4
+{
+    color: #3C763D;
+}
+.alert-message-danger
+{
+    background-color: #fdf7f7;
+    border-color: #d9534f;
+}
+.alert-message-danger h4
+{
+    color: #d9534f;
+}
+.alert-message-warning
+{
+    background-color: #fcf8f2;
+    border-color: #f0ad4e;
+}
+.alert-message-warning h4
+{
+    color: #f0ad4e;
+}
+.alert-message-info
+{
+    background-color: #f4f8fa;
+    border-color: #5bc0de;
+}
+.alert-message-info h4
+{
+    color: #5bc0de;
+}
+.alert-message-default
+{
+    background-color: #EEE;
+    border-color: #B4B4B4;
+}
+.alert-message-default h4
+{
+    color: #000;
+}
+.alert-message-notice
+{
+    background-color: #FCFCDD;
+    border-color: #BDBD89;
+}
+.alert-message-notice h4
+{
+    color: #444;
+}
+
+
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQ39ND25FJ"></script>
@@ -85,13 +162,20 @@
         </div>
     </div>
     <!-- Pricing info -->
-    <div class="section-padding">
+    <div class="section">
         <div class="container">
-            <div class="row mb-60">
-                <div class="alert alert-primary" role="alert">
-                    <h4>Introducing our new Shop!</h4>
-                    <hr class="line line-hr-left"> <strong style="color: black;">Shop One-time Bouquets or monthly subscriptions -- all with free delivery! All hand-crafted, unique, and affordable bouquets crafted by a professional wedding florist.</strong>
-                </div>
+             <!-- if Removed add section-padding back -->
+            <div class="row mt-4 mb-60">
+               
+                
+            <div class="alert-message alert-message-success">
+                <h4>
+                    Introducing our new Shop!</h4>
+                <p>
+                   <h6> Shop One-time Bouquets or monthly subscriptions -- all with free delivery! All bouquets are hand-crafted, unique, and affordable meticulously designed by a professional wedding florist. Use Promo Code: <u>NEWSHOP</u> for 10% off your order!</h6>
+            </div>
+     
+
             </div>
             <div class="row mb-60">
                 <div class="col-md-4">
@@ -114,7 +198,7 @@
                     </p>
                     <ul>
                         <li><i class="ti-check"></i> Receive a beautiful, fresh floral arrangement in a vase delivered to your doorstep, desk, or table one-time or once a month</li>
-                        <li><i class="ti-check"></i> Each bouquet is a designer's choice, crafted with the finest and freshest seasonal flowers to create the most stunning and <strong>unique</strong> arrangement possible.</li>
+                        <li><i class="ti-check"></i> Each bouquet is designer's choice, crafted with the finest and freshest seasonal flowers to create the most stunning and <strong><u>unique</u></strong> arrangement possible.</li>
                         <li><i class="ti-check"></i> Customization available to add a personal touch</li>
                         <li><i class="ti-check"></i> Our arrangements feature locally grown flowers during Colorado's growing season (April-October)</li>
                         <li><i class="ti-check"></i> Free 2 day delivery</li>
