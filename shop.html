@@ -21,7 +21,55 @@
     <link href="modules/slick/slick-theme.css" rel="stylesheet">
     <link href="modules/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/color_styles.css" rel="stylesheet"> -->
     <style type="text/css">
+    .single-shipping {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .single-shipping .shipping-icon img {
+        width: 70px;
+    }
+
+    .single-shipping .shipping-content {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -moz-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        padding-left: 15px;
+    }
+    .single-shipping .shipping-content p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+
+    .banner-header {
+        height: 40vh;
+        background-position: center;
+        margin-top: 80px;
+        background-position: bottom;
+    }
+
+    .blog .content {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .blog .content .date {
+        display: table-cell;
+        position: relative;
+        width: 40px;
+        z-index: 2;
+    }
+
     .services-item img {
         display: block;
         height: 400px; //use any height you like
@@ -33,6 +81,7 @@
         margin: 20px 0;
         padding: 20px;
         border-left: 3px solid #eee;
+        width: 100%;
     }
 
     .alert-message h4 {
@@ -133,7 +182,6 @@
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul class="navbar-nav ml-auto py-4 py-md-0">
                                             <li class="nav-item"> <a class="nav-link" href="index">Home</a></li>
-                                            
                                             <li class="nav-item"> <a class="nav-link" href="services">Services</a></li>
                                             <li class="nav-item active"> <a class="nav-link" href="shop">Shop</a> <span class="badge badge-success">New</span></li>
                                             <li class="nav-item"> <a class="nav-link" href="portfolio">Portfolio</a></li>
@@ -150,7 +198,7 @@
         </div>
     </header>
     <!-- Header Banner -->
-    <div class="banner-header valign bg-1 bg-fixed">
+    <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="1" data-background="images/banner/ElizabethRoseFlorals-3.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -163,15 +211,103 @@
     <div class="section">
         <div class="container">
             <!-- if Removed add section-padding back -->
-            <div class="row mt-4 mb-60">
+            <div class="row mt-4 mb-10">
                 <div class="alert-message alert-message-success">
                     <h4>
                         Introducing our new Shop!</h4>
                     <p>
-                        <h6> Shop One-time Bouquets or monthly subscriptions -- all with free delivery! Use Promo Code: <u>NEWSHOP</u> for 10% off your order!</h6>
+                        Shop One-time Bouquets or monthly subscriptions -- all with free delivery! Use Promo Code: <u>NEWSHOP</u> for 10% off your order!
+                </div>
+
+            </div>
+            <!-- News & Blog -->
+            <!-- <div class="blog row mb-5">
+                <div class="col-md-4">
+                    <div class="content">
+                        <div class="date">
+                            <h6>Step</h6>
+                            <h3>1</h3>
+                        </div>
+                        <div class="cont">
+                            <h4>Choose Your Bouquet</h4>
+                            <span>Choose from three unique bouquet tiers for a one-time purchase or monthly subscription.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content">
+                        <div class="date">
+                            <h6>Step</h6>
+                            <h3>2</h3>
+                        </div>
+                        <div class="cont">
+                            <h4>Set Your Schedule</h4>
+                            <span>Select either "next Tuesday" or "next Thursday" at checkout for delivery. Orders must be placed at least 2 days in advance.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content">
+                        <div class="date">
+                            <h6>Step</h6>
+                            <h3>3</h3>
+                        </div>
+                        <div class="cont">
+                            <h4>Receive Your Bouquet</h4>
+                            <span>Receive a one-of-a-kind creation, handcrafted by our professional wedding florist.</span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row ">
+                <div class="col-md-6">
+                    <div class="single-shipping">
+                        <div class="shipping-icon">
+                        <img src="images/u1F69A-deliverytruck.svg">
+                        </div>
+                        <div class="shipping-content">
+                            <h5 class="title">Free Delivery</h5>
+                            <p>Free delivery around Denver metro area</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="single-shipping">
+                        <div class="shipping-icon">
+                          <img src="images/u1F4B3-creditcard.svg">
+                        </div>
+                        <div class="shipping-content">
+                            <h5 class="title">Secure Checkout</h5>
+                            <p>Protected by Stripe</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
+             <div class="row">
+                <div class="col-md-6">
+                    <div class="single-shipping">
+                        <div class="shipping-icon">
+                         <img src="images/u1F4C5-calendar.svg">
+                        </div>
+                        <div class="shipping-content">
+                            <h5 class="title">Set Your Schedule</h5>
+                            <p>Select either "next Tuesday" or "next Thursday" at checkout for delivery. Orders must be placed at least 2 days in advance.</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6">
+                    <div class="single-shipping">
+                        <div class="shipping-icon">
+                       <img src="images/u1F395-bouquetofflowers.svg">
+                        </div>
+                        <div class="shipping-content">
+                            <h5 class="title">Receive Your Bouquet</h5>
+                            <p>Receive a one-of-a-kind creation, handcrafted by our professional wedding florist.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
             <!-- Stripe -->
             <div class="row mb-60">
                 <div class="col-md-12">
@@ -180,24 +316,122 @@
                     </stripe-pricing-table>
                 </div>
             </div>
-                <!-- shop info -->
+                  
+        </div>
+    </div>
+    <!-- Shop Info -->
+    <div class="section-padding bg-1">
+        <div class="container">
             <div class="row mb-60">
-         
+                <div class="col-md-4">
+                     <img src="images/35.jpg" alt="">
+                </div>
+                <div class="col-md-4">
+                     <img src="images/35.jpg" alt="">
+                </div>
+                <div class="col-md-4">
+                     <img src="images/35.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- shop info -->
+            <div class="row">
                 <div class="col-md-12">
                     <p>
                         <h2 class="text-left">Illuminate Your Space with Fresh Flowers</h2>
-                            <hr class="line line-hr-left">
-                       Dynamic arrangements delivered to a doorstep are the perfect way to to convey your message for any occasion. Our arrangements showcase locally grown flowers from Colorado during the growing season. Whether you’re a flower enthusiast, a business owner, or looking for a unique gift for loved ones, our flower subscription service and bouquet delivery is designed to brighten your day. Here’s what you need to know:
+                        <hr class="line line-hr-left">
+                        Dynamic arrangements delivered to a doorstep are the perfect way to to convey your message for any occasion. Whether you’re a flower enthusiast, a business owner, or looking for a unique gift for loved ones, our flower subscription service and one-time bouquets are designed to brighten your day. Here’s what you need to know:
                     </p>
                     <ul>
-                        <li><i class="ti-check"></i> All bouquets are hand-crafted, unique, and affordable meticulously designed by a professional wedding florist.</li>
-                        <li><i class="ti-check"></i> Receive a beautiful, fresh floral arrangement in a vase delivered to your doorstep, desk, or table one-time or once a month</li>
-                        <li><i class="ti-check"></i> Each bouquet is designer's choice, crafted with the finest and freshest seasonal flowers to create the most stunning and <strong><u>unique</u></strong> arrangement possible.</li>
-                        <li><i class="ti-check"></i> Customization available to add a personal touch</li>
-                        <li><i class="ti-check"></i> Our arrangements feature locally grown flowers during Colorado's growing season (April-October)</li>
-                        <li><i class="ti-check"></i> Free 2 day delivery</li>
-                        <li><i class="ti-check"></i> Cancel anytime</li>
+                        <li><i class="ti-check"></i> <strong>Handcrafted and Unique Bouquets:</strong> Each bouquet is a designer's choice that is meticulously handcrafted by a professional wedding florist. Custom requests are available upon request, please make a note at checkout. accepted during checkout. </li>
+                        <p></p>
+                       
+                        <li><i class="ti-check"></i> <strong>Flexible Delivery Options:</strong> Select either "next Tuesday" or "next Thursday" at checkout for delivery. Orders must be placed at least 2 days in advance. All deliveries are free and within a 30-mile radius of Centennial, Colorado. Pickup and meeting options are available upon request.</li>
+                         <p></p>
+                        <li><i class="ti-check"></i> <strong>Customizable Arrangements:</strong> Personalize your bouquet with customization options to add a special touch. Each arrangement is crafted with locally grown flowers during Colorado’s growing season (April-October).</li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- F.A.Qs -->
+    <div class="section-padding" id="shop-faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>F.A.Qs</h2>
+                    <hr class="line line-hr-center">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-2 faqs-accordion">
+                    <div class="accordion">
+                        <div class="item">
+                            <div class="title">
+                                <h6>How far in advance do I need to place my order?</h6>
+                            </div>
+                            <div class="accordion-info" style="display: none;">
+                                <p>Orders must be placed at least 2 days in advance, though we may accommodate last-minute requests on a case-by-case basis.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">
+                                <h6>How do I detemrine a delivery date for my order?</h6>
+                            </div>
+                            <div class="accordion-info" style="display: none;">
+                                <p>We deliver on Tuesdays and Thursdays. Please choose your delivery date at least 2 days in advance.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">
+                                <h6>Do you offer same-day or last-minute deliveries?</h6>
+                            </div>
+                            <div class="accordion-info" style="display: none;">
+                                <p>While orders should be placed 2 days in advance, we do our best to accommodate last-minute requests when possible. Please <a href="https://billing.stripe.com/p/login/7sI9Cf4Mb9oZ372fYY">contact us</a> for any requests.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">
+                                <h6>Do you offer free delivery?</h6>
+                            </div>
+                            <div class="accordion-info" style="display: none;">
+                                <p>Yes, delivery is free within a 30-mile radius of Centennial, Colorado. Pickup options are also available upon request.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">
+                                <h6>Can I customize my bouquet?</h6>
+                            </div>
+                            <div class="accordion-info" style="display: none;">
+                                <p>Yes! You can personalize your bouquet to add a special touch. Just let us know your preferences in the Checkout screen.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">
+                                <h6>What types of flowers do you use?</h6>
+                            </div>
+                            <div class="accordion-info" style="display: none;">
+                                <p>We use the freshest seasonal flowers, with locally grown options during Colorado’s growing season (April-October).</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">
+                                <h6>What makes your bouquets unique?</h6>
+                            </div>
+                            <div class="accordion-info" style="display: none;">
+                                <p>Each bouquet is a one-of-a-kind creation, handcrafted by a professional wedding florist, ensuring a unique design every time.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">
+                                <h6>How do I cancel or modify my bouquet orders and subscriptions?</h6>
+                            </div>
+                            <div class="accordion-info" style="display: none;">
+                                <p><a href="https://billing.stripe.com/p/login/7sI9Cf4Mb9oZ372fYY">Click here</a> to cancel or modify your bouquet orders and subscriptions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -218,20 +452,21 @@
                             <div class="item">
                                 <div class="cont">
                                     <div class="info">
-                                        <h5>Shannon M.</h5> <span>July 24,2023</span>
+                                        <h5>Kate S.</h5> <span>February 15,2024</span>
                                     </div>
                                 </div>
-                                <p>Elizabeth created beautiful floral arrangements for my daughter's wedding on 7/22. She was so flexible when we changed our mind about what we wanted. She arrived a couple of hours before the ceremony and created the arbor arrangements on site. We were very happy to work with Elizabeth and thrilled with the beautiful flowers. Thank you!</p>
+                                <p>I have now gotten two bouquets from Elizabeth Rose Florals and both have been absolutely beautiful. They were both for Valentine’s Day from my boyfriend, and I am so thankful he found you. This most recent one was so classy and just stunning. The colors and the way they were displayed was so well done! Looking forward to more! Also, so many comments from friends on how beautiful they both were.
+                                </p>
                             </div>
                         </div>
                         <div class="box">
                             <div class="item">
                                 <div class="cont">
                                     <div class="info">
-                                        <h5>Heidi M.</h5> <span>March 26,2024</span>
+                                        <h5>Charlie N.</h5> <span>February 25,2024</span>
                                     </div>
                                 </div>
-                                <p>Elizabeth was truly a dream to work with! She is so knowledgeable about not only floral arrangement, but how to pose them in magical ways to show off their full potential. She has the eye for detail that will make any flower type pop in the bouquet of your dreams!
+                                <p>We've used the service for a couple months now and have had nothing but good experiences. The owner is communicative, transparent, delivers the arrangements at the time she said they would be delivered, and does a great job putting them together!
                                 </p>
                             </div>
                         </div>
@@ -279,7 +514,7 @@
                         <ul>
                             <li><i class="ti-angle-right"></i> <a href="index">Home</a></li>
                             <li><i class="ti-angle-right"></i> <a href="services">Services</a></li>
-                             <li><i class="ti-angle-right"></i> <a href="shop">Shop <span class="badge badge-success">New</span> </a></li>
+                            <li><i class="ti-angle-right"></i> <a href="shop">Shop <span class="badge badge-success">New</span> </a></li>
                             <li><i class="ti-angle-right"></i> <a href="portfolio">Portfolio</a></li>
                             <li><i class="ti-angle-right"></i> <a href="about">About</a></li>
                             <li><i class="ti-angle-right"></i> <a href="contact">Contact</a></li>
@@ -303,7 +538,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="text-left">
-                            <p>© 2024 Elizabeth Rose Florals, LLC. All rights reserved.</p>
+                            <p>© 2024 Elizabeth Rose Florals, LLC. All rights reserved. <a href="terms">Terms of Service</a>. <a href="privacy">Privacy Policy</a>. </p>
                         </div>
                     </div>
                 </div>
