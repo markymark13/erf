@@ -21,7 +21,7 @@
     <link href="modules/slick/slick-theme.css" rel="stylesheet">
     <link href="modules/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!-- <link href="css/color_styles.css" rel="stylesheet"> -->
+    <link href="css/color_styles.css" rel="stylesheet">
     <style type="text/css">
     .single-shipping {
         display: -webkit-box;
@@ -33,7 +33,7 @@
     }
 
     .single-shipping .shipping-icon img {
-        width: 70px;
+        width: 40px;
     }
 
     .single-shipping .shipping-content {
@@ -44,11 +44,52 @@
         flex: 1;
         padding-left: 15px;
     }
+
     .single-shipping .shipping-content p {
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 300;
-}
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 300;
+    }
+
+    /* Make the tag position relative to the figure */
+    .figure.tag {
+        position: relative;
+    }
+
+    /* set the base styles all tags should use */
+    .figure.tag::before {
+        position: absolute;
+        top: 10%;
+        display: block;
+        color: white;
+        padding: 0.5rem 1rem;
+        font-weight: bold;
+    }
+
+    /* Specific variations for different tags */
+    .figure.tag-featured::before {
+        content: "Featured";
+        background: orange;
+    }
+
+    .figure.tag-sale::before {
+        content: "Sale";
+        background: red;
+    }
+
+    .figure.tag-out::before {
+        content: "Out of Stock";
+        background: #e2e2e2;
+        border: #ccc;
+        color: #444;
+        top: 42%;
+        right: 0;
+        left: 0;
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
 
 
     .banner-header {
@@ -56,18 +97,6 @@
         background-position: center;
         margin-top: 80px;
         background-position: bottom;
-    }
-
-    .blog .content {
-        width: 100%;
-        padding: 10px 10px;
-    }
-
-    .blog .content .date {
-        display: table-cell;
-        position: relative;
-        width: 40px;
-        z-index: 2;
     }
 
     .services-item img {
@@ -218,7 +247,6 @@
                     <p>
                         Shop One-time Bouquets or monthly subscriptions -- all with free delivery! Use Promo Code: <u>NEWSHOP</u> for 10% off your order!
                 </div>
-
             </div>
             <!-- News & Blog -->
             <!-- <div class="blog row mb-5">
@@ -259,11 +287,11 @@
                     </div>
                 </div>
             </div> -->
-            <div class="row ">
-                <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-3">
                     <div class="single-shipping">
                         <div class="shipping-icon">
-                        <img src="images/u1F69A-deliverytruck.svg">
+                            <img src="images/u1F69A-deliverytruck.svg">
                         </div>
                         <div class="shipping-content">
                             <h5 class="title">Free Delivery</h5>
@@ -271,10 +299,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <div class="single-shipping">
                         <div class="shipping-icon">
-                          <img src="images/u1F4B3-creditcard.svg">
+                            <img src="images/u1F4B3-creditcard.svg">
                         </div>
                         <div class="shipping-content">
                             <h5 class="title">Secure Checkout</h5>
@@ -282,12 +310,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-             <div class="row mb-60">
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <div class="single-shipping">
                         <div class="shipping-icon">
-                         <img src="images/u1F4C5-calendar.svg">
+                            <img src="images/u1F4C5-calendar.svg">
                         </div>
                         <div class="shipping-content">
                             <h5 class="title">Set Your Schedule</h5>
@@ -295,10 +321,10 @@
                         </div>
                     </div>
                 </div>
-                 <div class="col-md-6">
+                <div class="col-md-3">
                     <div class="single-shipping">
                         <div class="shipping-icon">
-                       <img src="images/u1F395-bouquetofflowers.svg">
+                            <img src="images/u1F395-bouquetofflowers.svg">
                         </div>
                         <div class="shipping-content">
                             <h5 class="title">Receive Your Bouquet</h5>
@@ -307,33 +333,57 @@
                     </div>
                 </div>
             </div>
-      
             <!-- Stripe -->
             <div class="row mb-60">
                 <div class="col-md-12">
                     <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-                    <stripe-pricing-table pricing-table-id="prctbl_1PsS8UIfZFPe5TxRiT0v1jjG" publishable-key="pk_live_51ProemIfZFPe5TxR6cZrawkEv0hMgyzwRPaUFJ68L7TLRUu5A9EraWyPDYMBJTrh8RuVZThNyC2jC7mPprjaSgPa00RAVUYaxN">
+                    <stripe-pricing-table pricing-table-id="prctbl_1PxbpQIfZFPe5TxRN1xPEiYV" publishable-key="pk_live_51ProemIfZFPe5TxR6cZrawkEv0hMgyzwRPaUFJ68L7TLRUu5A9EraWyPDYMBJTrh8RuVZThNyC2jC7mPprjaSgPa00RAVUYaxN">
                     </stripe-pricing-table>
                 </div>
             </div>
-                  
         </div>
     </div>
     <!-- Shop Info -->
     <div class="section-padding bg-1">
         <div class="container">
-            <div class="row mb-60">
-                <div class="col-md-4">
-                     <img src="images/35.jpg" alt="">
+            <div class="row">
+                <div class="col-md-4 gallery-item">
+                    <a href="images/44.jpg" title="Bridesmaid" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img">
+                                <figure class="figure tag tag-featured">
+                                    <img src="images/35.jpg" alt="featured image" class="figure-img">
+                                    <figcaption class="figure-caption">A short caption for the image</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4">
-                     <img src="images/35.jpg" alt="">
+                <div class="col-md-4 gallery-item">
+                    <a href="images/44.jpg" title="" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img">
+                                <figure class="figure tag tag-featured">
+                                    <img src="images/35.jpg" alt="featured image" class="figure-img">
+                                    <figcaption class="figure-caption">A short caption for the image</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4">
-                     <img src="images/35.jpg" alt="">
+                <div class="col-md-4 gallery-item">
+                    <a href="images/44.jpg" title="" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img">
+                                <figure class="figure tag tag-featured">
+                                    <img src="images/35.jpg" alt="featured image" class="figure-img">
+                                    <figcaption class="figure-caption">A short caption for the image</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-
             <!-- shop info -->
             <div class="row">
                 <div class="col-md-12">
@@ -343,11 +393,10 @@
                         Dynamic arrangements delivered to a doorstep are the perfect way to to convey your message for any occasion. Whether you’re a flower enthusiast, a business owner, or looking for a unique gift for loved ones, our flower subscription service and one-time bouquets are designed to brighten your day. Here’s what you need to know:
                     </p>
                     <ul>
-                        <li><i class="ti-check"></i> <strong>Handcrafted and Unique Bouquets:</strong> Each bouquet is a designer's choice that is meticulously handcrafted by a professional wedding florist. Custom requests are available upon request, please make a note at checkout. accepted during checkout. </li>
+                        <li><i class="ti-check"></i> <strong>Handcrafted and Unique Bouquets:</strong> Each bouquet is a designer's choice that is meticulously handcrafted by a professional wedding florist. Custom requests are available upon request, please make a note during checkout.</li>
                         <p></p>
-                       
                         <li><i class="ti-check"></i> <strong>Flexible Delivery Options:</strong> Select either "next Tuesday" or "next Thursday" at checkout for delivery. Orders must be placed at least 2 days in advance. All deliveries are free and within a 30-mile radius of Centennial, Colorado. Pickup and meeting options are available upon request.</li>
-                         <p></p>
+                        <p></p>
                         <li><i class="ti-check"></i> <strong>Customizable Arrangements:</strong> Personalize your bouquet with customization options to add a special touch. Each arrangement is crafted with locally grown flowers during Colorado’s growing season (April-October).</li>
                     </ul>
                 </div>
@@ -387,7 +436,7 @@
                                 <h6>Do you offer same-day or last-minute deliveries?</h6>
                             </div>
                             <div class="accordion-info" style="display: none;">
-                                <p>While orders should be placed 2 days in advance, we do our best to accommodate last-minute requests when possible. Please <a href="https://billing.stripe.com/p/login/7sI9Cf4Mb9oZ372fYY">contact us</a> for any requests.</p>
+                                <p>While orders should be placed 2 days in advance, we do our best to accommodate last-minute requests when possible. Please <a href="contact">contact us</a> for any requests.</p>
                             </div>
                         </div>
                         <div class="item">
@@ -411,7 +460,7 @@
                                 <h6>What types of flowers do you use?</h6>
                             </div>
                             <div class="accordion-info" style="display: none;">
-                                <p>We use the freshest seasonal flowers, with locally grown options during Colorado’s growing season (April-October).</p>
+                                <p>We pride ourselves on unique designs that vary in texture, movement and color. During the CO growing season (April-October), we incorporate locally grown flowers into our designs. </p>
                             </div>
                         </div>
                         <div class="item">

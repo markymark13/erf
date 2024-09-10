@@ -1,0 +1,284 @@
+/* Color Variables */
+:root {
+    --primary-black: #000;
+    --secondary-grey: #505050;
+    --accent-color: #000;
+    --accent-color-light: #769170;
+    --accent-color-lighter: #E7ECE8;
+    --accent-color-lightest: #F0F3EF;
+    --background-color: #93b58c;
+    --hover-color: #93b58c;
+    --text-color: #ffffff;
+    --border-color: #ececec;
+    --link-color: #ffffff;
+    --placeholder-color: #505050;
+    --light-wrapper-color: #f6f7fa;
+}
+
+/* ======= Default style ======= */
+.bg-1 {
+    background-color: var(--accent-color-lightest);
+}
+
+.bg-2 {
+    background-color: var(--accent-color-lightest);
+    background-image: url("pattern.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    color: var(--secondary-grey);
+}
+
+p {
+    color: var(--secondary-grey);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary-black);
+}
+
+b,
+strong {
+    color: var(--accent-color-light);
+        font-weight: 600;
+}
+
+a {
+    color: var(--primary-black);
+}
+
+a:hover {
+    color: var(--accent-color-light);
+}
+
+img {
+    color: var(--primary-black);
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="file"],
+textarea {
+    color: var(--secondary-grey);
+    border-bottom: 1px solid var(--border-color);
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--accent-color);
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    color: var(--link-color);
+    background: var(--accent-color-light);
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover {
+    background-color: var(--primary-black);
+    color: var(--link-color);
+}
+
+
+::placeholder {
+    color: var(--placeholder-color);
+}
+
+/* ======= Preloader style ======= */
+.bethany-pageloading {
+    color: var(--accent-color);
+    background-color: var(--text-color);
+}
+
+.bethany-pageloading h1 {
+    color: var(--accent-color);
+}
+
+/* ======= Navigation style ======= */
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--accent-color-light) !important;
+}
+
+.nav-item:hover .nav-link {
+    color: var(--accent-color-light) !important;
+}
+
+.nav-item.active .nav-link {
+    color: var(--accent-color-light);
+}
+
+.navbar-toggler-icon:after,
+.navbar-toggler-icon:before {
+    background-color: var(--accent-color-light);
+}
+
+.nav-item:after {
+
+    background-color: var(--accent-color-light);
+
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: var(--accent-color);
+}
+
+.slick-dots li button::before {
+    opacity: 0.5;
+    color: var(--accent-color);
+}
+
+/* ======= Slider style ======= */
+.bethany-homepage-slider {
+    background-color: var(--accent-color-lightest) !important;
+}
+
+.bethany-slider-caption {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.bethany-slider-imghover {
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.bethany-slider-title,
+.bethany-slider-subtitle {
+    color: var(--primary-black);
+}
+
+/* ======= Line style ======= */
+.line-hr-center,
+.line-hr-primary,
+.line-hr-left,
+.line-hr-right,
+.line-vr-section {
+    border-color: var(--secondary-grey);
+}
+
+/* ======= About style ======= */
+.about-img .img:before {
+    border: 10px solid var(--accent-color-lighter);
+ 
+}
+}
+
+.about-img .about-img-2 {
+    color: var(--primary-black);
+}
+
+.faqs-accordion .accordion .active .title {
+    color: var(--primary-black);
+    background: var(--accent-color-lightest);
+}
+
+
+.faqs-accordion .accordion .accordion-info {
+    border-left: 1px solid var(--accent-color-lightest);
+}
+
+
+/* ======= Wedding Dates style ======= */
+.wedding-date-table h6,
+.wedding-date-table p,
+.wedding-date-table span {
+    color: var(--secondary-grey);
+}
+
+.wedding-date-table tr {
+    padding: 10px;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.wedding-date-table tr td.hr {
+    border-top: 1px solid var(--accent-color);
+}
+
+/* ======= Testimonials style ======= */
+.testimonials .sec-head .tbg {
+    color: var(--text-color);
+}
+
+.testimonials .item .info span {
+    color: var(--accent-color-light);
+}
+
+/* ======= Gallery style ======= */
+.gallery-box:hover .gallery-img:after {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* ======= Video style ======= */
+.video-gallery-polygon {
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: var(--text-color);
+}
+
+.video-gallery-polygon:hover {
+    background: var(--hover-color);
+    border: 1px solid var(--hover-color);
+}
+
+/* ======= Button style ======= */
+.bethany-btn a {
+    background: var(--primary-black);
+    border: 1px solid var(--primary-black);
+    /*    color: var(--link-color);*/
+}
+
+.bethany-btn2 {
+    border: 1px solid var(--accent-color);
+    background: var(--accent-color);
+}
+
+.bethany-more {
+    color: var(--primary-black);
+    border-bottom: 1px solid var(--accent-color);
+}
+
+/* ======= Footer ======= */
+.main-footer.dark {
+    background: var(--accent-color-light);
+    color: var(--text-color);
+}
+
+.main-footer .abot p,
+.main-footer .sub-footer p,
+.main-footer .sub-footer p a,
+.main-footer .logo h2,
+.main-footer .logo span {
+    color: var(--text-color);
+}
+
+.main-footer .usful-links ul li:hover {
+    color: var(--accent-color);
+}
+
+.line-hr-center {
+    width: 60px;
+    border-top: 1px solid var(--accent-color-light);
+}
+
+/* ======= Overlay Effect Bg image ======= */
+[data-overlay-dark]:before {
+    background: var(--primary-black);
+}
+
+[data-overlay-light]:before {
+    background: var(--text-color);
+}
