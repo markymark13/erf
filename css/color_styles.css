@@ -19,6 +19,12 @@
 .bg-1 {
     background-color: var(--accent-color-lightest);
 }
+.bg-grey {
+/*    background-color: var(--light-wrapper-color);*/
+    padding: 40px;
+    border: 10px solid var(--accent-color-lighter);
+}
+
 
 .bg-2 {
     background-color: var(--accent-color-lightest);
@@ -146,7 +152,7 @@ button:hover {
 
 /* ======= Slider style ======= */
 .bethany-homepage-slider {
-    background-color: var(--accent-color-lightest) !important;
+    background-color: var(--accent-color-lighter) !important;
 }
 
 .bethany-slider-caption {
