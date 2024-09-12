@@ -21,8 +21,82 @@
     <link href="modules/slick/slick-theme.css" rel="stylesheet">
     <link href="modules/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-      <link href="css/color_styles.css" rel="stylesheet">
+    <link href="css/color_styles.css" rel="stylesheet">
     <style type="text/css">
+    .card-product {
+        position: relative;
+        background: transparent;
+    }
+
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid #e9e9e9;
+    }
+
+    .card-product .card-footer {
+        padding: 0.625rem 0 0 0;
+    }
+
+    .card-footer {
+        padding: 0.9375rem 1.875rem;
+        background-color: transparent;
+        border-top: 0 solid #e9e9e9;
+    }
+
+    .card-product .card-title {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .card-product .price {
+        font-size: 0.875rem;
+        font-weight: 700;
+        color: #000;
+    }
+
+    .text-red {
+        color: #dc3545 !important;
+    }
+
+    .card-image {
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    .card-product .card-image .badge {
+        position: absolute;
+        bottom: 0.625rem;
+        left: 0.625rem;
+    }
+
+    .badge-success {
+        color: #fff;
+        background-color: #28a745;
+    }
+
+    .badge {
+        display: inline-block;
+        padding: 0.25em 0.4em;
+        font-size: 75%;
+        font-weight: 400;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    .card-product .price s {
+        font-weight: 400;
+        color: #999999;
+    }
+
     .single-shipping {
         display: -webkit-box;
         display: -webkit-flex;
@@ -248,45 +322,6 @@
                         Shop One-time Bouquets or monthly subscriptions -- all with free delivery! Use Promo Code: <u>NEWSHOP</u> for 10% off your order!
                 </div>
             </div>
-            <!-- News & Blog -->
-            <!-- <div class="blog row mb-5">
-                <div class="col-md-4">
-                    <div class="content">
-                        <div class="date">
-                            <h6>Step</h6>
-                            <h3>1</h3>
-                        </div>
-                        <div class="cont">
-                            <h4>Choose Your Bouquet</h4>
-                            <span>Choose from three unique bouquet tiers for a one-time purchase or monthly subscription.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="content">
-                        <div class="date">
-                            <h6>Step</h6>
-                            <h3>2</h3>
-                        </div>
-                        <div class="cont">
-                            <h4>Set Your Schedule</h4>
-                            <span>Select either "next Tuesday" or "next Thursday" at checkout for delivery. Orders must be placed at least 2 days in advance.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="content">
-                        <div class="date">
-                            <h6>Step</h6>
-                            <h3>3</h3>
-                        </div>
-                        <div class="cont">
-                            <h4>Receive Your Bouquet</h4>
-                            <span>Receive a one-of-a-kind creation, handcrafted by our professional wedding florist.</span>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <div class="row">
                 <div class="col-md-3">
                     <div class="single-shipping">
@@ -295,7 +330,7 @@
                         </div>
                         <div class="shipping-content">
                             <h5 class="title">Free Delivery</h5>
-                            <p>Free delivery around Denver metro area</p>
+                            <p>Free delivery around the Denver metro area</p>
                         </div>
                     </div>
                 </div>
@@ -333,13 +368,85 @@
                     </div>
                 </div>
             </div>
-            <!-- Stripe -->
+        </div>
+    </div>
+    <!-- Buy One time -->
+    <div class="section-padding pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30">
+                    <h2>Shop</h2>
+                    <hr class="line line-hr-center">
+                </div>
+            </div>
             <div class="row mb-60">
-                <div class="col-md-12">
-                   <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-<stripe-pricing-table pricing-table-id="prctbl_1PxbpQIfZFPe5TxRN1xPEiYV"
-publishable-key="pk_live_51ProemIfZFPe5TxR6cZrawkEv0hMgyzwRPaUFJ68L7TLRUu5A9EraWyPDYMBJTrh8RuVZThNyC2jC7mPprjaSgPa00RAVUYaxN">
-</stripe-pricing-table>
+                <div class="col-md-4">
+                    <div class="card card-product">
+                        <figure class="card-image">
+                            <a href="#!">
+                                <img src="images/elizabethroseflorals_bouquet_1.jpg" alt="Image">
+                            </a>
+                            <span class="badge badge-success">New</span>
+                        </figure>
+                        <div class="card-footer mb-2">
+                            <h3 class="card-title">Nature’s Melody Bouquet</h3>
+                            <p class="card-text text-muted">Make a statement with our Nature’s Melody Bouquet, a perfect blend of beauty and style.</p>
+                            <ul>
+                                <li><i class="ti-check"></i> 15-20 Stems</li>
+                               <li><i class="ti-check"></i> Clear vase</li>
+                               <li><i class="ti-check"></i> Personalized message available</li>
+                             
+                            </ul>
+                            <p class="card-text text-muted">Available as a one-time bouquet or monthly subscription. </p>
+                            <span class="price text-red"><s>$119.00</s> $99.00</span>
+                        </div>
+                        <a href="shop"><button class="bethany-btn1 float-left mb-2" type="submit">Buy Bouquet</button></a>
+                        <a href="shop"><button class="bethany-btn1 float-left mb-2" type="submit">Buy Subscription</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-product">
+                        <figure class="card-image">
+                            <img src="images/elizabethroseflorals_bouquet_2.jpg" alt="Image">
+                            <span class="badge badge-success">New</span>
+                        </figure>
+                        <div class="card-footer mb-2">
+                            <h3 class="card-title">Harmony In Bloom Bouquet</h3>
+                            <p class="card-text text-muted">Delight in the harmonious beauty of unique flowers.</p>
+                             <ul>
+                                <li><i class="ti-check"></i> 25-30 Stems</li>
+                               <li><i class="ti-check"></i> Designer vase</li>
+                               <li><i class="ti-check"></i> Personalized message available upon request</li>
+                            </ul>
+                            <p class="card-text text-muted">Available as a one-time bouquet or monthly subscription. </p>
+                            <span class="price">$149.00</span>
+                        </div>
+                        <a href="shop"><button class="bethany-btn1 float-left mb-2" type="submit">Buy Bouquet</button></a>
+                        <a href="shop"><button class="bethany-btn1 float-left mb-2" type="submit">Buy Subscription</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-product">
+                        <figure class="card-image">
+                            <a href="#!">
+                                <img src="images/elizabethroseflorals_bouquet_3.jpg" alt="Image">
+                            </a>
+                            <span class="badge badge-success">New</span>
+                        </figure>
+                        <div class="card-footer mb-2">
+                            <h3 class="card-title">Opulent Crescendo Bouquet</h3>
+                            <p class="card-text text-muted">Celebrate with a beautifully hand-crafted arrangement that captures the spirit of Colorado.</p>
+                             <ul>
+                                <li><i class="ti-check"></i> 35-40 Stems</li>
+                               <li><i class="ti-check"></i> Large designer vase</li>
+                               <li><i class="ti-check"></i> Personalized message available upon request</li>
+                            </ul>
+                            <p class="card-text text-muted">Available as a one-time bouquet or monthly subscription. </p>
+                            <span class="price">$249.00</span>
+                        </div>
+                        <a href="shop"><button class="bethany-btn1 float-left mb-2" type="submit">Buy Bouquet</button></a>
+                        <a href="shop"><button class="bethany-btn1 float-left mb-2" type="submit">Buy Subscription</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -347,45 +454,6 @@ publishable-key="pk_live_51ProemIfZFPe5TxR6cZrawkEv0hMgyzwRPaUFJ68L7TLRUu5A9EraW
     <!-- Shop Info -->
     <div class="section-padding bg-1">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 gallery-item">
-                    <a href="images/elizabethroseflorals_bouquet_1_side.jpg" title="Nature’s Melody Bouquet" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img">
-                                <figure class="figure tag tag">
-                                    <img src="images/elizabethroseflorals_bouquet_1_side.jpg" alt="featured image" class="figure-img">
-                                    <figcaption class="figure-caption">Nature’s Melody Bouquet</figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="images/elizabethroseflorals_bouquet_2.jpg" title="Harmony In Bloom Bouquet" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img">
-                                <figure class="figure tag tag-featured">
-                                    <img src="images/elizabethroseflorals_bouquet_2.jpg" alt="featured image" class="figure-img">
-                                    <figcaption class="figure-caption">Harmony In Bloom Bouquet</figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="images/elizabethroseflorals_bouquet_3.jpg" title="Opulent Crescendo Bouquet" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img">
-                                <figure class="figure tag tag">
-                                    <img src="images/elizabethroseflorals_bouquet_3.jpg" alt="featured image" class="figure-img">
-                                    <figcaption class="figure-caption">Opulent Crescendo Bouquet</figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <!-- shop info -->
             <div class="row">
                 <div class="col-md-12">
                     <p>
