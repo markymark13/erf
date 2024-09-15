@@ -1,1 +1,23 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://elizabethroseflorals.com/</loc></url><url><loc>https://elizabethroseflorals.com/services/</loc></url><url><loc>https://elizabethroseflorals.com/services/weddings/</loc></url><url><loc>https://elizabethroseflorals.com/services/events/</loc></url><url><loc>https://elizabethroseflorals.com/services/corporate/</loc></url><url><loc>https://elizabethroseflorals.com/portfolio/</loc></url><url><loc>https://elizabethroseflorals.com/about/</loc></url><url><loc>https://elizabethroseflorals.com/contact/</loc></url><url><loc>https://elizabethroseflorals.com/faq/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://elizabethroseflorals.com</loc>
+    </url>
+    <url>
+        <loc>https://elizabethroseflorals.com/services</loc>
+    </url>
+     <url>
+        <loc>https://elizabethroseflorals.com/shop</loc>
+    </url>
+    <url>
+        <loc>https://elizabethroseflorals.com/portfolio</loc>
+    </url>
+    <url>
+        <loc>https://elizabethroseflorals.com/about</loc>
+    </url>
+    <url>
+        <loc>https://elizabethroseflorals.com/contact</loc>
+    </url>
+    <url>
+        <loc>https://elizabethroseflorals.com/services#faq</loc>
+    </url>
+</urlset>

@@ -21,14 +21,38 @@
     <link href="modules/slick/slick-theme.css" rel="stylesheet">
     <link href="modules/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+      <link href="css/color_styles.css" rel="stylesheet">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQ39ND25FJ"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-MQ39ND25FJ');
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init({
+            publicKey: "6jOVQ6YPekOyYMdsK",
+        });
+    })();
+    </script>
+    <script type="text/javascript">
+    window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // these IDs from the previous steps
+            emailjs.sendForm("service_obknvxc", "template_jms9xqe", this)
+                .then(() => {
+                    console.log('SUCCESS!');
+                }, (error) => {
+                    console.log('FAILED...', error);
+                });
+        });
+    }
     </script>
 </head>
 
@@ -52,6 +76,7 @@
                                         <ul class="navbar-nav ml-auto py-4 py-md-0">
                                             <li class="nav-item "> <a class="nav-link" href="index">Home</a></li>
                                             <li class="nav-item"> <a class="nav-link" href="services">Services</a></li>
+                                            <li class="nav-item"> <a class="nav-link" href="shop">Shop</a> <span class="badge badge-success">New</span></li>
                                             <li class="nav-item"> <a class="nav-link" href="portfolio">Portfolio</a></li>
                                             <li class="nav-item"> <a class="nav-link" href="about">About</a></li>
                                             <li class="nav-item active"> <a class="nav-link" href="contact">Contact</a> </li>
@@ -66,7 +91,7 @@
         </div>
     </header>
     <!-- Header Banner -->
-    <div class="banner-header valign bg-1 bg-fixed">
+    <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="1" data-background="images/banner/white_flower_bouquet_denver_florist_3.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -79,26 +104,46 @@
     <div class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-6 mb-4">
-                            <div class="about-img">
-                                <div class="img">
-                                    <img src="images/28.jpg" alt="">
+                <div class="col-md-5 mb-4">
+                    <h2 class="text-left">Let's Talk Flowers</h2>
+                    <hr class="line line-hr-left">
+                    <p>Feel free to drop us a message for all your floral needs in Colorado. Let's bring your vision to life and make your event uniquely yours.</p>
+                    <p><b>Please include date, location, and how you found us in your message.</b></p>
+                    </p>
+                    <p><b>email : </b><a href="mailto:elizabeth@elizabethroseflorals.com">elizabeth@elizabethroseflorals.com</a></p>
+                    <p><b>phone : </b> <a href="tel:7205074908">(720) 507-4908</a></p>
+                    <p><b>instagram : </b><a href="https://www.instagram.com/elizabethroseflorals/" target="_blank">@elizabethroseflorals</a></p>
+                </div>
+                <div class="col-md-7 bg-grey">
+                    <h5 class="mb-30">Send us a message</h5>
+                    <form method="post" class="contact__form" action="" id="contact-form">
+                        <!-- Form message -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                    Your message was sent successfully.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-5 offset-md-1">
-                            <h2 class="text-left">Let's Talk Flowers</h2>
-                            <hr class="line line-hr-left">
-                            <p>Feel free to drop us a message for all your floral needs in Colorado. Let's bring your vision to life and make your event uniquely yours.</p>
-                            <p><b>Please include date, location, and how you found us in your message.</b></p>
-                            </p>
-                            <p><b>email : </b><a href="mailto:elizabeth@elizabethroseflorals.com">elizabeth@elizabethroseflorals.com</a></p>
-                            <p><b>phone : </b> <a href="tel:7205074908">(720) 507-4908</a></p>
-                            <p><b>instagram : </b><a href="https://www.instagram.com/elizabethroseflorals/" target="_blank">@elizabethroseflorals</a></p>
+                        <!-- Form elements -->
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input name="user_name" type="text" placeholder="Full Name *" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input name="user_email" type="email" placeholder="Email Address *" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input name="phone" type="text" placeholder="Phone">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message *" required></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <input name="submit" type="submit" value="Send Message">
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -179,7 +224,7 @@
                         <ul>
                             <li><i class="ti-angle-right"></i> <a href="index">Home</a></li>
                             <li><i class="ti-angle-right"></i> <a href="services">Services</a></li>
-                            <li><i class="ti-angle-right"></i> <a href="">Shop <span class="badge badge-info">Coming Soon</span> </a></li>
+                            <li><i class="ti-angle-right"></i> <a href="shop">Shop <span class="badge badge-success">New</span> </a></li>
                             <li><i class="ti-angle-right"></i> <a href="portfolio">Portfolio</a></li>
                             <li><i class="ti-angle-right"></i> <a href="about">About</a></li>
                             <li><i class="ti-angle-right"></i> <a href="contact">Contact</a></li>
@@ -203,7 +248,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="text-left">
-                            <p>© 2024 Elizabeth Rose Florals, LLC. All rights reserved.</p>
+                            <p>© 2024 Elizabeth Rose Florals, LLC. All rights reserved. <a href="terms">Terms of Service</a>. <a href="privacy">Privacy Policy</a>. </p>
                         </div>
                     </div>
                 </div>
