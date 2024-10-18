@@ -48,8 +48,10 @@
             emailjs.sendForm("service_obknvxc", "template_jms9xqe", this)
                 .then(() => {
                     console.log('SUCCESS!');
+                    done_func(); // Call success function
                 }, (error) => {
                     console.log('FAILED...', error);
+                    fail_func(); // Call fail function
                 });
         });
     }
