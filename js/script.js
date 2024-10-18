@@ -287,7 +287,7 @@
         e.preventDefault();
         form_data = $(this).serialize();
         $.ajax({
-            type: 'POST',
+            // type: 'POST',
             url: form.attr('action'),
             data: form_data
         })
