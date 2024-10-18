@@ -1,110 +1,109 @@
-(function () {
+(function() {
     "use strict";
     var ARC = {
-        init: function () {
+        init: function() {
             this.cacheDom();
             this.bindEvents();
             this.initSlider();
             // this.totopButton();
             this.enablePopupGallery();
-        }
-        , cacheDom: function () {
+        },
+        cacheDom: function() {
             this.toTop = $('.totop');
             this._body = $('body');
             this.bethanyHomepageSlider = $('.bethany-slider');
             this.bethanyGalleryTabs = $('.bethany-toolbar-item');
-        }
-        , bindEvents: function () {
+        },
+        bindEvents: function() {
             var self = this;
             this.bethanyGalleryTabs.on('click', self.changeActiveTab);
             this.bethanyGalleryTabs.on('click', self.addGalleryFilter);
             $(window).on('load', self.enablePreloader);
-        }
-        , /* popup gallery */
-        enablePopupGallery: function () {
-            $('.bethany-popup-gallery').each(function () {
+        },
+        /* popup gallery */
+        enablePopupGallery: function() {
+            $('.bethany-popup-gallery').each(function() {
                 $(this).magnificPopup({
-                    delegate: 'a'
-                    , type: 'image'
-                    , gallery: {
+                    delegate: 'a',
+                    type: 'image',
+                    gallery: {
                         enabled: true
                     }
                 });
             });
-        }
-        , /* preloader */
-        enablePreloader: function () {
-            var preloader = $('#bethany-page-loading');
-            if (preloader.length > 0) {
-                preloader.fadeOut("slow", function () {
-                    preloader.remove();
+        },
+        /* preloader */
+        enablePreloader: function() {
+                var preloader = $('#bethany-page-loading');
+                if (preloader.length > 0) {
+                    preloader.fadeOut("slow", function() {
+                        preloader.remove();
+                    });
+                }
+            }
+
+            ,
+        /* slider */
+        initSlider: function() {
+                var self = this;
+                /* homepage slider */
+                self.bethanyHomepageSlider.slick({
+                    infinite: true,
+                    dots: false,
+                    autoplay: true,
+                    speed: 3000,
+                    arrows: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }]
                 });
             }
-        }
-        
-        , /* slider */
-        initSlider: function () {
-            var self = this;
-            /* homepage slider */
-            self.bethanyHomepageSlider.slick({
-                infinite: true
-                , dots: false
-                , autoplay: true
-                , speed: 3000
-                , arrows: true
-                , slidesToShow: 3
-                , slidesToScroll: 1
-                , responsive: [
-                    {
-                        breakpoint: 768
-                        , settings: {
-                            slidesToShow: 1
-                            , slidesToScroll: 1
-                        }
-			}
-			]
-            });
-        }
-        
 
-        , /* ======= toTop ======= */
+
+            ,
+        /* ======= toTop ======= */
         // totopButton: function() {
-		// 	var self = this;
+        //  var self = this;
 
-		// 	/* Show totop button*/
-		// 	$(window).scroll(function(){
-		// 		var toTopOffset = self.toTop.offset().top;
-		// 		var toTopHidden = 1000;
+        //  /* Show totop button*/
+        //  $(window).scroll(function(){
+        //      var toTopOffset = self.toTop.offset().top;
+        //      var toTopHidden = 1000;
 
-		// 		if (toTopOffset > toTopHidden) {
-		// 			self.toTop.addClass('totop-vissible');
-		// 		} else {
-		// 			self.toTop.removeClass('totop-vissible');
-		// 		}
-		// 	});
+        //      if (toTopOffset > toTopHidden) {
+        //          self.toTop.addClass('totop-vissible');
+        //      } else {
+        //          self.toTop.removeClass('totop-vissible');
+        //      }
+        //  });
 
-		// 	/* totop button animation */
-		// 	if(self.toTop && self.toTop.length > 0){
-		// 		self.toTop.on('click',function (e){
-		// 			e.preventDefault();
-		// 			$( 'html, body').animate( {scrollTop: 0 }, 'slow' );
-		// 		});
-		// 	}
-		// }
+        //  /* totop button animation */
+        //  if(self.toTop && self.toTop.length > 0){
+        //      self.toTop.on('click',function (e){
+        //          e.preventDefault();
+        //          $( 'html, body').animate( {scrollTop: 0 }, 'slow' );
+        //      });
+        //  }
+        // }
     };
     var header = $(".start-style");
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll >= 10) {
             header.removeClass('start-style').addClass("scroll-on");
-        }
-        else {
+        } else {
             header.removeClass("scroll-on").addClass('start-style');
         }
     });
     // Sections Background Image
     var pageSection = $(".bg-img, section");
-    pageSection.each(function (indx) {
+    pageSection.each(function(indx) {
         if ($(this).attr("data-background")) {
             $(this).css("background-image", "url(" + $(this).data("background") + ")");
         }
@@ -120,21 +119,21 @@
     // });
     // Clients owlCarousel
     $('.clients .owl-carousel').owlCarousel({
-        loop: true
-        , margin: 30
-        , mouseDrag: true
-        , autoplay: true
-        , dots: false
-        , responsiveClass: true
-        , responsive: {
+        loop: true,
+        margin: 30,
+        mouseDrag: true,
+        autoplay: true,
+        dots: false,
+        responsiveClass: true,
+        responsive: {
             0: {
-                margin: 10
-                , items: 2
-            }
-            , 600: {
+                margin: 10,
+                items: 2
+            },
+            600: {
                 items: 4
-            }
-            , 1000: {
+            },
+            1000: {
                 items: 5
             }
         }
@@ -147,8 +146,7 @@
         dots: true,
         arrows: false,
         autoplay: false,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 991,
                 settings: {
                     slidesToShow: 2
@@ -164,66 +162,63 @@
     });
     // Team owlCarousel
     $('.team .owl-carousel').owlCarousel({
-        loop: true
-        , margin: 30
-        , dots: true
-        , mouseDrag: true
-        , autoplay: false
-        , responsiveClass: true
-        , responsive: {
+        loop: true,
+        margin: 30,
+        dots: true,
+        mouseDrag: true,
+        autoplay: false,
+        responsiveClass: true,
+        responsive: {
             0: {
                 items: 1
-            }
-            , 600: {
+            },
+            600: {
                 items: 2
-            }
-            , 1000: {
+            },
+            1000: {
                 items: 2
             }
         }
     });
     // Price owlCarousel
     $('.price .owl-carousel').owlCarousel({
-        loop: true
-        , margin: 30
-        , dots: true
-        , mouseDrag: true
-        , autoplay: false
-        , responsiveClass: true
-        , responsive: {
+        loop: true,
+        margin: 30,
+        dots: true,
+        mouseDrag: true,
+        autoplay: false,
+        responsiveClass: true,
+        responsive: {
             0: {
                 items: 1
-            }
-            , 600: {
+            },
+            600: {
                 items: 2
-            }
-            , 1000: {
+            },
+            1000: {
                 items: 3
             }
         }
     });
     // Animations
-    var contentWayPoint = function () {
+    var contentWayPoint = function() {
         var i = 0;
-        $('.animate-box').waypoint(function (direction) {
+        $('.animate-box').waypoint(function(direction) {
             if (direction === 'down' && !$(this.element).hasClass('animated')) {
                 i++;
                 $(this.element).addClass('item-animate');
-                setTimeout(function () {
-                    $('body .animate-box.item-animate').each(function (k) {
+                setTimeout(function() {
+                    $('body .animate-box.item-animate').each(function(k) {
                         var el = $(this);
-                        setTimeout(function () {
+                        setTimeout(function() {
                             var effect = el.data('animate-effect');
                             if (effect === 'fadeIn') {
                                 el.addClass('fadeIn animated');
-                            }
-                            else if (effect === 'fadeInLeft') {
+                            } else if (effect === 'fadeInLeft') {
                                 el.addClass('fadeInLeft animated');
-                            }
-                            else if (effect === 'fadeInRight') {
+                            } else if (effect === 'fadeInRight') {
                                 el.addClass('fadeInRight animated');
-                            }
-                            else {
+                            } else {
                                 el.addClass('fadeInUp animated');
                             }
                             el.removeClass('item-animate');
@@ -235,26 +230,26 @@
             offset: '85%'
         });
     };
-    $(function () {
+    $(function() {
         contentWayPoint();
     });
     // img zoom
     $(".img-zoom").magnificPopup({
-            type: "image"
-            , closeOnContentClick: !0
-            , mainClass: "mfp-fade"
-            , gallery: {
-                enabled: !0
-                , navigateByImgClick: !0
-                , preload: [0, 1]
-            }
-        })
+        type: "image",
+        closeOnContentClick: !0,
+        mainClass: "mfp-fade",
+        gallery: {
+            enabled: !0,
+            navigateByImgClick: !0,
+            preload: [0, 1]
+        }
+    })
     // Accordion
-    $(".accordion").on("click", ".title", function () {
+    $(".accordion").on("click", ".title", function() {
         $(this).next().slideDown();
         $(".accordion-info").not($(this).next()).slideUp();
     });
-    $(".accordion").on("click", ".item", function () {
+    $(".accordion").on("click", ".item", function() {
         $(this).addClass("active").siblings().removeClass("active");
     });
     //  YouTubePopUp
@@ -263,25 +258,23 @@
 })();
 
 // Contact Form
-    var form = $('.contact__form'),
-        message = $('.contact__msg'),
-        form_data;
-    // success function
-    function done_func(response) {
-        message.fadeIn().removeClass('alert-danger').addClass('alert-success');
-        message.text(response);
-        // setTimeout(function () {
-        //     message.fadeOut();
-        // }, 2000);
-        form.find('input:not([type="submit"]), textarea').val('');
-    }
-    // fail function
-    function fail_func(data) {
-        message.fadeIn().removeClass('alert-success').addClass('alert-success');
-        message.text(data.responseText);
-        // setTimeout(function () {
-        //     message.fadeOut();
-        // }, 2000);
-    }
-   ;
-    
+var form = $('.contact__form'),
+    message = $('.contact__msg'),
+    form_data;
+// success function
+function done_func(response) {
+    message.fadeIn().removeClass('alert-danger').addClass('alert-success');
+    message.text(response);
+    // setTimeout(function () {
+    //     message.fadeOut();
+    // }, 2000);
+    form.find('input:not([type="submit"]), textarea').val('');
+}
+// fail function
+function fail_func(data) {
+    message.fadeIn().removeClass('alert-success').addClass('alert-success');
+    message.text(data.responseText);
+    // setTimeout(function () {
+    //     message.fadeOut();
+    // }, 2000);
+};
