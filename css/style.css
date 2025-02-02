@@ -274,6 +274,10 @@ ul {
 .alert-message-notice h4 {
     color: #444;
 }
+.alert-message-valentines {
+    background-color:   #ff257e;
+    border-color:   #d60000;
+}
 
 
 /* ======= Default style ======= */
