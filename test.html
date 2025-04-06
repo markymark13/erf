@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<script>
-  async function loadIncludes() {
-    const footer = await fetch('/footer.html');
-    document.getElementById('footer').innerHTML = await footer.text();
-  }
-  loadIncludes();
-</script>
 
 <head>
     <meta http-equiv="Cache-control" content="public">
@@ -47,13 +40,10 @@
     <script src="js/plugins/jquery.isotope.v3.0.2.js"></script>
     <script src="js/plugins/modernizr-2.6.2.min.js"></script>
     <script src="js/plugins/jquery.waypoints.min.js"></script>
-    <script src="modules/owl-carousel/owl.carousel.min.js"></script>
-    <script src="modules/magnific-popup/jquery.magnific-popup.js"></script>
-    <script src="modules/masonry/masonry.pkgd.min.js"></script>
-    <script src="modules/youtubepopup/YouTubePopUp.js"></script>
-    <script src="js/script.js"></script>
-    <script src="https://unpkg.com/mailgo@0.12.2/dist/mailgo.min.js"></script>
-    <script async src="https://eocampaign1.com/form/2442068a-1322-11f0-a4f4-0591309124e6.js" data-form="2442068a-1322-11f0-a4f4-0591309124e6"></script>
+
+    <!-- mailchimp signup newsletter -->
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/983db649995bceac8c2b9dd69/604a82d25039c3e03bb9d8cb9.js");</script>
+
 
 </head>
 
@@ -207,10 +197,71 @@
             </div>
         </div>
     </div>
+    <!-- Footer -->
+    <footer class="main-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-30">
+                    <div class="item abot">
+                        <div class="logo mb-20">
+                            <!-- <img src="images/logo-light.png" alt=""> -->
+                            <h2 style="font-family: Gistesy; font-weight: normal; letter-spacing: 2px;">Elizabeth Rose Florals</h2>
+                        </div>
+                        <p>Elevating weddings and events with personalized and delicately handcrafted floral designs.</p>
+                        <div class="social-icon">
+                            <a href="mailto:elizabeth@elizabethroseflorals.com" class="nocolor"><i class="ti-email"></i></a>
+                            <a href="https://instagram.com/elizabethroseflorals" target="_blank"><i class="ti-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-md-1 mb-30">
+                    <div class="item usful-links">
+                        <div class="fothead">
+                            <h6>Useful Links</h6>
+                        </div>
+                        <ul>
+                            <li><i class="ti-angle-right"></i> <a href="index">Home</a></li>
+                            <li><i class="ti-angle-right"></i> <a href="services">Services</a></li>
+                            <li><i class="ti-angle-right"></i> <a href="shop">Shop</a></li>
+                            <li><i class="ti-angle-right"></i> <a href="portfolio">Portfolio</a></li>
+                            <li><i class="ti-angle-right"></i> <a href="about">About</a></li>
+                            <li><i class="ti-angle-right"></i> <a href="contact">Contact</a></li>
+                            <li><i class="ti-angle-right"></i> <a href="services#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-30">
+                    <div class="item fotcont">
+                        <div class="fothead">
+                            <h6>Get in touch</h6>
+                        </div>
+                        <p><a href="mailto:elizabeth@elizabethroseflorals.com" class="nocolor">elizabeth@elizabethroseflorals.com</a></p>
+                        <p><a class="nocolor" href="tel:7205074908">(720) 507-4908</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="text-left">
+                            <p>© 2025 Elizabeth Rose Florals, LLC. All rights reserved. <a href="terms">Terms of Service</a>. <a href="privacy">Privacy Policy</a>. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="modules/owl-carousel/owl.carousel.min.js"></script>
+    <script src="modules/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="modules/masonry/masonry.pkgd.min.js"></script>
+    <script src="modules/youtubepopup/YouTubePopUp.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/mailgo@0.12.2/dist/mailgo.min.js"></script>
+    <script async src="https://eocampaign1.com/form/2442068a-1322-11f0-a4f4-0591309124e6.js" data-form="2442068a-1322-11f0-a4f4-0591309124e6"></script>
 
-<!--footer-->
-<div id="footer"></div>
-
+    
 </body>
 
 </html>
