@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+    {% seo %}
+
+    <!-- JSON-LD structured data for local business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Florist",
+        "name": "Elizabeth Rose Florals",
+        "image": "https://elizabethroseflorals.com/images/erf_logo.png",
+        "url": "https://elizabethroseflorals.com",
+        "telephone": "720-507-4908",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Centennial",
+            "addressRegion": "CO",
+            "postalCode": "80112",
+            "addressCountry": "US"
+        },
+        "sameAs": [
+            "https://www.instagram.com/elizabethroseflorals",
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    {% include header.html %}
+    <main>
+        {{ content }}
+    </main>
+    {% include footer.html %}
+</body>
+
+</html>

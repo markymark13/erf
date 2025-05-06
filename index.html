@@ -1,107 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: Elizabeth Rose Florals | Colorado Wedding & Event Florist
+description: Elevating weddings and events with personalized, sustainably sourced floral designs. Serving Centennial and the Denver metro area with handcrafted arrangements.
+permalink: /
+---
+<!-- Splide.js CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.4/dist/css/splide.min.css" />
+<style>
+.splide__slide img {
+    display: block;
+    height: 530px;
+    object-fit: cover;
+}
 
-<head>
-    <meta http-equiv="Cache-control" content="public">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A local florist serving Colorado with personalized and delicately handcrafted floral designs.">
-    <meta name="keywords" content="Denver Florist, Floral Arrangements Denver, Denver Flower Delivery, Denver Wedding Flowers, Denver Floral Design, Denver Flower Shop, Denver Flower Bouquets, Denver Flower Arrangements, Denver Flower Designer, Denver Flower Delivery Service, Denver Flower Shop Online, Denver Flower Delivery Today, Denver Florist Delivery, Denver Same-Day Flower Delivery, Denver Local Florist, Denver Online Florist, Denver Florist Shop, Denver Flower Store, Denver Flower Gifts, Denver Flower Specialist,
-    Colorado Florist, Floral Arrangements Colorado, Colorado Flower Delivery, Colorado Wedding Flowers, Colorado Floral Design, Colorado Flower Shop, Colorado Flower Bouquets, Colorado Flower Arrangements, Colorado Flower Designer, Colorado Flower Delivery Service, Colorado Flower Shop Online, Colorado Flower Delivery Today, Colorado Florist Delivery, Colorado Same-Day Flower Delivery, Colorado Local Florist, Colorado Online Florist, Colorado Florist Shop, Colorado Flower Store, Colorado Flower Gifts, Colorado Flower Specialist, Denver, Aurora, Lakewood, Littleton, Englewood, Arvada, Wheat Ridge, Westminster, Broomfield, Golden, Commerce City, Northglenn, Brighton, Thornton, Centennial, Highlands Ranch, Lone Tree, Parker, Castle Rock, Castle Pines, Greenwood Village, Cherry Hills Village, Sedalia, Sheridan
-
-    ">
-    <meta content="A local florist serving Colorado with personalized and delicately handcrafted floral designs.">
-    <title>Elizabeth Rose Florals | Local Colorado Florist | Flower Delivery</title>
-    <link rel="shortcut icon" href="images/erf_logo.png">
-    <link rel="icon" type="image/png" href="images/erf_logo.png">
-    <link href="css/bootstrap.min.css" rel=stylesheet>
-    <link href="css/themify-icons.css" rel="stylesheet">
-    <link href="modules/slick/slick.css" rel="stylesheet">
-    <link href="modules/slick/slick-theme.css" rel="stylesheet">
-    <link href="modules/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/color_styles.css" rel="stylesheet">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQ39ND25FJ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-MQ39ND25FJ');
-    </script>
-    <!-- Load Slider Early -->
-    <script src="js/plugins/jquery-3.5.1.min.js"></script>
-    <script src="modules/slick/slick.js"></script>
-    <!-- jQuery -->
-    <script src="js/plugins/bootstrap.min.js"></script>
-    <script src="js/plugins/imagesloaded.pkgd.min.js"></script>
-    <script src="js/plugins/jquery.isotope.v3.0.2.js"></script>
-    <script src="js/plugins/modernizr-2.6.2.min.js"></script>
-    <script src="js/plugins/jquery.waypoints.min.js"></script>
-
-</head>
+</style>
+<!-- preload first image for mobile -->
+<link rel="preload" as="image" href="images/43.jpg">
 
 <body>
-    <!-- Navigation -->
-    <header>
-        <div class="bethany-header-navbar">
-            <div class="container bethany-navbar-container">
-                <div class="bethany-navigation-wrap bg-light bethany-start-header start-style">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <nav class="navbar navbar-expand-md navbar-light">
-                                    <!-- Logo -->
-                                    <a class="navbar-brand" href="index">
-                                        <h3 style="font-family: Gistesy; font-weight: normal; letter-spacing: 2px;">Elizabeth Rose Florals</h3>
-                                    </a>
-                                    <!-- Menu -->
-                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="navbar-nav ml-auto py-4 py-md-0">
-                                            <li class="nav-item active"> <a class="nav-link" href="index">Home</a></li>
-                                            <li class="nav-item"> <a class="nav-link" href="services">Services</a></li>
-                                            <li class="nav-item"> <a class="nav-link" href="shop">Shop</a> <span class="badge badge-success">New</span></li>
-                                            <li class="nav-item"> <a class="nav-link" href="portfolio">Portfolio</a></li>
-                                            <li class="nav-item"> <a class="nav-link" href="about">About</a></li>
-                                            <li class="nav-item"> <a class="nav-link" href="contact">Contact</a> </li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Slider & Services -->
+    <!-- Slider -->
     <div class="bethany-homepage-slider">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="bethany-slider">
-                        <div class="bethany-slider-item">
-                            <img class="bethany-slider-img" src="images/43.jpg" alt="">
-                        </div>
-                        <div class="bethany-slider-item">
-                            <img class="bethany-slider-img" src="images/32.jpg" alt="">
-                        </div>
-                        <div class="bethany-slider-item">
-                            <img class="bethany-slider-img" src="images/29.jpg" alt="">
-                        </div>
-                        <div class="bethany-slider-item">
-                            <img class="bethany-slider-img" src="images/thehythe-398.jpg" alt="" loading="lazy">
-                        </div>
-                        <div class="bethany-slider-item">
-                            <img class="bethany-slider-img" src="images/FourSeasons-_-168.jpg" alt="" loading="lazy">
-                        </div>
-                        <div class="bethany-slider-item">
-                            <img class="bethany-slider-img" src="images/41.jpg" alt="" loading="lazy">
+                    <!-- Splide Slider -->
+                    <div class="splide" id="image-slider">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <!-- update preload first image for mobile -->
+                                    <img src="images/43.jpg" alt="Elizabeth Rose Florals Bouquet and Wedding" fetchpriority="high">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/32.jpg" alt="Elizabeth Rose Florals Bouquet and Wedding">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/29.jpg" alt="Elizabeth Rose Florals Bouquet and Wedding">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/thehythe-398.jpg" alt="Elizabeth Rose Florals Bouquet and Wedding" loading="lazy">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/FourSeasons-_-168.jpg" alt="Elizabeth Rose Florals Bouquet and Wedding" loading="lazy">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/41.jpg" alt="Elizabeth Rose Florals Bouquet and Wedding" loading="lazy">
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                    <!-- Splide.js JS -->
+                    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.4/dist/js/splide.min.js"></script>
+                    <script>
+                    new Splide('#image-slider', {
+                        type: 'loop',
+                        perPage: 3,
+                        focus: false, // or remove this line entirely
+                        gap: '10px',
+                        pagination: false,
+                        arrows: true,
+                        autoplay: true,
+                        interval: 6000,
+                         speed: 3000, // Transition speed in milliseconds (1000 ms = 1 second)
+                        breakpoints: {
+                            1024: {
+                                perPage: 2,
+                            },
+                            768: {
+                                perPage: 1,
+                            }
+                        }
+                    }).mount();
+                    </script>
                 </div>
             </div>
         </div>
@@ -177,86 +147,5 @@
             </div>
         </div>
     </div>
-    <!-- Clients -->
-    <div class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="img-wrap">
-                        <a target="_blank" href="https://www.theknot.com/marketplace/redirect-2073840?utm_source=vendor_website&utm_medium=banner&utm_term=1e47e1fc-0b86-4c89-b882-41731f4bfad2&utm_campaign=vendor_badge_assets"><img alt="As Seen on The Knot" border="0" src="https://raw.githubusercontent.com/markymark13/erf/main/images/128-1286873_7-seen-on-the-knot-badge-black.png" loading="lazy"></a>
-                        <a target="_blank" href="https://voyagedenver.com/interview/hidden-gems-meet-elizabeth-kay-sherrard-of-elizabeth-rose-florals/"><img alt="" border="0" src="https://raw.githubusercontent.com/markymark13/erf/main/images/VoyageDenverfooter.png" loading="lazy"></a>
-                        <a target="_blank" href="https://www.carolgardnerphotography.com/blog/behind-the-petals-an-interview-with-elizabeth-rose-florals/"><img alt="" border="0" src="images/carol_photo_logo.png" loading="lazy"></a>
-                        <a target="_blank" href=""><img alt="" border="0" src="images/2025 WC Feature Badge.png" loading="lazy"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer -->
-    <footer class="main-footer dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-30">
-                    <div class="item abot">
-                        <div class="logo mb-20">
-                            <!-- <img src="images/logo-light.png" alt=""> -->
-                            <h2 style="font-family: Gistesy; font-weight: normal; letter-spacing: 2px;">Elizabeth Rose Florals</h2>
-                        </div>
-                        <p>Elevating weddings and events with personalized and delicately handcrafted floral designs.</p>
-                        <div class="social-icon">
-                            <a href="mailto:elizabeth@elizabethroseflorals.com" class="nocolor"><i class="ti-email"></i></a>
-                            <a href="https://instagram.com/elizabethroseflorals" target="_blank"><i class="ti-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 offset-md-1 mb-30">
-                    <div class="item usful-links">
-                        <div class="fothead">
-                            <h6>Useful Links</h6>
-                        </div>
-                        <ul>
-                            <li><i class="ti-angle-right"></i> <a href="index">Home</a></li>
-                            <li><i class="ti-angle-right"></i> <a href="services">Services</a></li>
-                            <li><i class="ti-angle-right"></i> <a href="shop">Shop</a></li>
-                            <li><i class="ti-angle-right"></i> <a href="portfolio">Portfolio</a></li>
-                            <li><i class="ti-angle-right"></i> <a href="about">About</a></li>
-                            <li><i class="ti-angle-right"></i> <a href="contact">Contact</a></li>
-                            <li><i class="ti-angle-right"></i> <a href="services#faq">FAQ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-30">
-                    <div class="item fotcont">
-                        <div class="fothead">
-                            <h6>Get in touch</h6>
-                        </div>
-                        <p><a href="mailto:elizabeth@elizabethroseflorals.com" class="nocolor">elizabeth@elizabethroseflorals.com</a></p>
-                        <p><a class="nocolor" href="tel:7205074908">(720) 507-4908</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sub-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="text-left">
-                            <p>© 2025 Elizabeth Rose Florals, LLC. All rights reserved. <a href="terms">Terms of Service</a>. <a href="privacy">Privacy Policy</a>. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="modules/owl-carousel/owl.carousel.min.js"></script>
-    <script src="modules/magnific-popup/jquery.magnific-popup.js"></script>
-    <script src="modules/masonry/masonry.pkgd.min.js"></script>
-    <script src="modules/youtubepopup/YouTubePopUp.js"></script>
-    <script src="js/script.js"></script>
-    <script src="https://unpkg.com/mailgo@0.12.2/dist/mailgo.min.js"></script>
-    
-    <!--emailoctopus newsletter -->
-     <script async src="https://eocampaign1.com/form/2442068a-1322-11f0-a4f4-0591309124e6.js" data-form="2442068a-1322-11f0-a4f4-0591309124e6"></script>
-</body>
-
-</html>
+    <script async src="https://eocampaign1.com/form/2442068a-1322-11f0-a4f4-0591309124e6.js" data-form="2442068a-1322-11f0-a4f4-0591309124e6"></script>
+    <script src="/modules/youtubepopup/YouTubePopUp.js"></script>
