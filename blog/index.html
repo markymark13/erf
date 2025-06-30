@@ -1,0 +1,100 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<style type="text/css">
+.item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 420px; /* Adjust as needed for your content */
+}
+.mt-auto.mb-3 {
+    margin-top: auto !important;
+    margin-bottom: 1rem !important;
+    display: flex;
+    justify-content: center;
+}
+
+
+</style>
+
+<head>
+</head>
+<body>
+<!-- Header Banner -->
+<div class="banner-header valign bg-img bg-fixed" data-overlay-dark="1" data-background="/images/elizabeth-rose-florals-bridal-party-florals.jpg">
+    <div class="container text-center">
+        <h1>Blog</h1>
+    </div>
+</div>
+
+<!-- Blog Section -->
+<div class="blog section-padding">
+    <div class="container">
+<div class="row">
+                <div class="col-md-12 text-center mb-30">
+                    <h2>Blog</h2>
+                    <hr class="line line-hr-center">
+                </div>
+            </div>
+
+
+<!-- Blog Grid: 3 per row, image on top, then title, date, tag, CTA -->
+<div class="row">
+    {% for post in paginator.posts %}
+    
+    <div class="col-md-4 mb-4">
+        <div class="item h-100 d-flex flex-column">
+            <!-- Post Image -->
+            <a href="{{ post.url }}">
+                <img src="{{ post.featured_image }}" alt="{{ post.title }}" class="img-fluid mb-3" style="width:100%;height:220px;object-fit:cover;">
+            </a>
+            <!-- Post Title -->
+            <h5 class="mb-2 mt-3"><a href="{{ post.url }}" class="text-dark">{{ post.title }}</a></h5>
+            <!-- Date and Tag -->
+            <div class="mb-2 text-muted small">
+                <span>
+                    <i class="ti-calendar"></i>
+                    {{ post.date | date: "%B %d, %Y" }}
+                </span>
+                &nbsp;|&nbsp;
+                <span>
+                    <i class="ti-tag"></i>
+                    <a href="/blog/?category={{ post.categories | first | url_encode }}">
+                        {{ post.categories | first | capitalize }}
+                    </a>
+                </span>
+            </div>
+            <!-- Read More CTA -->
+            <div class="mt-auto mb-3">
+                <a href="post.html" class="more" data-splitting=""><span>Read More</span></a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+        <!-- Pagination -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="blog-pagination-wrap align-center">
+                    {% if paginator.previous_page %}
+                    <li><a href="{{ paginator.previous_page_path }}"><i class="ti-arrow-left"></i></a></li>
+                    {% endif %}
+                    {% for page in (1..paginator.total_pages) %}
+                    <li>
+                        <a href="{{ paginator.paginate_path | replace: ':num', page }}" {% if page == paginator.page %}class="active"{% endif %}>{{ page }}</a>
+                    </li>
+                    {% endfor %}
+                    {% if paginator.next_page %}
+                    <li><a href="{{ paginator.next_page_path }}"><i class="ti-arrow-right"></i></a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

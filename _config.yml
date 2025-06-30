@@ -43,7 +43,7 @@ social:
     - https://www.instagram.com/elizabethroseflorals
     # - https://www.facebook.com/elizabethroseflorals
 
-permalink: blog/:categories/:year/:month/:day/:title/
+permalink: blog/:year/:month/:day/:title/
 
 plugins:
   - jekyll-feed
