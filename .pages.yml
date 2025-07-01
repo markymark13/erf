@@ -24,7 +24,6 @@ collections:
 
   - name: "pages"
     label: "Pages"
-    folder: ""
     files:
       - label: "Home"
         name: "index"
@@ -56,8 +55,18 @@ collections:
           - { label: "Description", name: "description", widget: "string" }
           - { label: "URL", name: "url", widget: "string" }
           - { label: "Base URL", name: "baseurl", widget: "string" }
+          - { label: "Language", name: "lang", widget: "string" }
+          - { label: "Timezone", name: "timezone", widget: "string" }
           - { label: "Author Name", name: "author.name", widget: "string" }
           - { label: "Author Email", name: "author.email", widget: "string" }
           - { label: "Instagram", name: "instagram_username", widget: "string" }
           - { label: "Logo", name: "logo", widget: "image" }
           - { label: "Image", name: "image", widget: "image" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - { label: "Paginate", name: "paginate", widget: "number" }
+          - { label: "Paginate Path", name: "paginate_path", widget: "string" }
+
+media_library:
+  name: uploadcare
+  config:
+    publicKey: demopublickey
