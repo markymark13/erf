@@ -15,11 +15,15 @@ content:
         label: Date
         type: date
       - name: layout
-        label: Post
+        label: layout
         type: string
+        default: post
       - name: title
         label: Title
         type: string
+      - name: featured_image
+        label: featured_image
+        type: image
       - name: body
         label: Body
         type: rich-text
