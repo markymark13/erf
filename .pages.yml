@@ -1,0 +1,11 @@
+content:
+  - name: posts
+    label: Posts
+    path: _posts
+    type: collection
+    fields:
+      # ... fields defined here ...
+  - name: authors
+    label: Authors
+    path: src/_data/authors.json
+    type: file
