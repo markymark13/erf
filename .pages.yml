@@ -1,65 +1,42 @@
-backend:
-  name: git-gateway
-  branch: main
-
-media_folder: "images"
-public_folder: "/images"
-
-collections:
-  - name: "posts"
-    label: "Blog Posts"
-    folder: "_posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+media: media
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: '_posts'
+    view:
+      fields: [ title, published, date ]
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Author", name: "author", widget: "string", default: "Elizabeth, Owner and Lead Designer" }
-      - { label: "Categories", name: "categories", widget: "list", default: ["wedding"] }
-      - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Featured Image", name: "featured_image", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "pages"
-    label: "Pages"
-    files:
-      - label: "Home"
-        name: "index"
-        file: "index.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - label: "About"
-        name: "about"
-        file: "about.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Contact"
-        name: "contact"
-        file: "contact.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "settings"
-    label: "Site Settings"
-    files:
-      - label: "Config"
-        name: "config"
-        file: "_config.yml"
-        fields:
-          - { label: "Site Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "string" }
-          - { label: "URL", name: "url", widget: "string" }
-          - { label: "Base URL", name: "baseurl", widget: "string" }
-          - { label: "Language", name: "lang", widget: "string" }
-          - { label: "Timezone", name: "timezone", widget: "string" }
-          - { label: "Author Name", name: "author.name", widget: "string" }
-          - { label: "Author Email", name: "author.email", widget: "string" }
-          - { label: "Instagram", name: "instagram_username", widget: "string" }
-          - { label: "Logo", name: "logo", widget: "image" }
-          - { label: "Image", name: "image", widget: "image" }
-          - { label: "Permalink", name: "permalink", widget: "string" }
-          - { label: "Paginate", name: "paginate", widget: "number" }
-          - { label: "Paginate Path", name: "paginate_path", widget: "string" }
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: date
+        label: Date
+        type: date
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
+  - name: config
+    label: Jekyll config
+    path: _config.yml
+    type: file
+    fields:
+      - name: title
+        label: Website title
+        type: string
+      - name: description
+        label: Website description
+        type: string
+        description: Will be provused for any page with no description.
+      - name: url
+        label: Website URL
+        type: string
+        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+      - name: cover
+        label: Preview image
+        type: image
+        description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
