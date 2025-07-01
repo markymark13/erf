@@ -10,7 +10,7 @@ site_url: https://elizabethroseflorals.com
 collections:
   - name: "posts"
     label: "Blog Posts"
-    folder: "_posts"
+    folder: _posts
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
