@@ -1,12 +1,63 @@
-media: images
-content:
-  - name: posts
-    label: Posts
-    path: _posts
-    type: collection
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+site_url: https://elizabethroseflorals.com
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      # ... fields defined here ...
-  - name: authors
-    label: Authors
-    path: src/_data/authors.json
-    type: file
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Elizabeth, Owner and Lead Designer" }
+      - { label: "Categories", name: "categories", widget: "list", default: ["wedding"] }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Featured Image", name: "featured_image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Pages"
+    folder: ""
+    files:
+      - label: "Home"
+        name: "index"
+        file: "index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "About"
+        name: "about"
+        file: "about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Contact"
+        name: "contact"
+        file: "contact.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "Config"
+        name: "config"
+        file: "_config.yml"
+        fields:
+          - { label: "Site Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+          - { label: "Base URL", name: "baseurl", widget: "string" }
+          - { label: "Author Name", name: "author.name", widget: "string" }
+          - { label: "Author Email", name: "author.email", widget: "string" }
+          - { label: "Instagram", name: "instagram_username", widget: "string" }
+          - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "Image", name: "image", widget: "image" }
