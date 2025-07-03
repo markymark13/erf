@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 title: "When Whimsical Meets Garden Chic: A Unique Spruce Mountain Ranch Wedding
   Vision"
