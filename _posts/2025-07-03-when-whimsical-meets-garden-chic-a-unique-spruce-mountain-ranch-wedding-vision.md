@@ -13,8 +13,8 @@ The bridal bouquet was a stunning composition of eclectic, carefully curated blo
 
 |     |     |     |
 | --- | --- | --- |
-| ![](/images/elizabeth-rose-florals-colorado-wedding-2.jpg) | ![](/images/20250503-BAY01148.jpg) | ![](/images/20250503-BAY01187.jpg) |
-| ![](/images/20250503-BAY03591.jpg) |     |     |
+| ![](/images/elizabeth-rose-florals-colorado-wedding-2.jpg) | ![](/images/20250503-BAY01148.jpg) |     |
+| ![](/images/20250503-BAY03591.jpg) | ![](/images/20250503-BAY01271.jpg) | ![](/images/20250503-BAY01630-2.jpg) |
 
 ```
             </div>
