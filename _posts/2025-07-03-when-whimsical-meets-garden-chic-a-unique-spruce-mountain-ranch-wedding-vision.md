@@ -17,10 +17,6 @@ The bridal bouquet was a stunning composition of eclectic, carefully curated blo
 | ![](/images/elizabeth-rose-florals-colorado-wedding-2.jpg) | ![](/images/20250503-BAY01148.jpg)![](/images/1.jpg) | ![](/images/11.jpg) |
 | ![](/images/20250503-BAY03591.jpg) | ![](/images/20250503-BAY01271.jpg) | ![](/images/20250503-BAY01630-2.jpg) |
 
-```
-            </div>
-```
-
 The bridal bouquet set the tone for the day—crafted entirely of white roses and baby's breath. Designed to feel both delicate and traditional, it complemented the softness of E's gown and reflected the romantic atmosphere of the day. Without greenery or added color, it let texture take the lead: the cloud-like clusters of baby's breath danced around the smooth, luminous petals of the roses, creating a bouquet that felt both timeless and ethereal.
 
 #### **Ceremony: Whimsical Florals**
