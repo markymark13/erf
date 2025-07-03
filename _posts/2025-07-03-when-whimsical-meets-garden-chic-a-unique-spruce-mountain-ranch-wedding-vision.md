@@ -1,5 +1,6 @@
 ---
 published: false
+date: 2025-07-03
 layout: post
 title: "When Whimsical Meets Garden Chic: A Unique Spruce Mountain Ranch Wedding
   Vision"
@@ -12,8 +13,8 @@ The bridal bouquet was a stunning composition of eclectic, carefully curated blo
 
 |     |     |     |
 | --- | --- | --- |
-| ![](/images/elizabeth-rose-florals-colorado-wedding-2.jpg) | ![](/images/Spruce%20Mountain%20Ranch%20Bridal%20Bouquet.jpg) | ![](/images/20250503-BAY01187.jpg) |
-|     |     |     |
+| ![](/images/elizabeth-rose-florals-colorado-wedding-2.jpg) | ![](/images/20250503-BAY01148.jpg) | ![](/images/20250503-BAY01187.jpg) |
+| ![](/images/20250503-BAY03591.jpg) |     |     |
 
 ```
             </div>
@@ -21,38 +22,23 @@ The bridal bouquet was a stunning composition of eclectic, carefully curated blo
 
 The bridal bouquet set the tone for the day—crafted entirely of white roses and baby's breath. Designed to feel both delicate and traditional, it complemented the softness of E's gown and reflected the romantic atmosphere of the day. Without greenery or added color, it let texture take the lead: the cloud-like clusters of baby's breath danced around the smooth, luminous petals of the roses, creating a bouquet that felt both timeless and ethereal.
 
-#### **Ceremony and Reception: A Garden-Inspired Celebration**
+#### **Ceremony: Whimsical Florals**
 
 The ground arbor lovingly embraced the couple, surrounding them in a cascade of florals—delicate larkspur and allium mingling effortlessly with whimsical, Dr. Seuss-inspired blooms that twisted and curled in playful, unexpected shapes. At the bride’s request, lush moss was thoughtfully incorporated, artfully nestled within the garden-inspired ground arbor to enhance the organic charm of the ceremony space.
+
+| ![](/images/elizabeth-rose-florals-colorado-wedding-3.jpg) | ![](/images/20250503-BAY03227.jpg) | ![](/images/20250503-BAY03064.jpg) |
+| --- | --- | --- |
+
+**Reception:**
 
 That same natural, whimsical energy carried into the reception. Moss was woven into the centerpieces alongside vintage-style lamps selected and rented by the bride through Dizzy and Co., creating a cohesive and eclectic look. These intentionally chosen elements forged a seamless connection between ceremony and celebration, complemented by florals that felt uniquely whimsical, lighthearted, and undeniably elegant.
 
 The result was an unforgettable **Spruce Mountain Ranch wedding**—a perfect reflection of the couple’s one-of-a-kind love story and distinct creative vision.
 
-|     |     |     |
-| --- | --- | --- |
-
-[![The Broadmoor Colorado Spings, CO Wedding Florals by Elizabeth Rose Florals](/images/the-broadmoor-colorado-springs-wedding-florals-2.jpg)](/images/the-broadmoor-colorado-springs-wedding-florals-2.jpg)
-
-[![The Broadmoor Colorado Spings, CO Wedding Florals by Elizabeth Rose Florals](/images/the-broadmoor-colorado-springs-wedding-florals-3.jpg)](/images/the-broadmoor-colorado-springs-wedding-florals-3.jpg)
-
-[![The Broadmoor Colorado Spings, CO Wedding Florals by Elizabeth Rose Florals](/images/broadmoor_wedding_florals_Eleanor&Sam_Portraits_0096_1.jpg)](/images/broadmoor_wedding_florals_Eleanor&Sam_Portraits_0096_1.jpg)
-
-The all-white roses and baby's breath floral theme was carried into a series of stunning tablescapes for the reception. Each round guest table featured white rose centerpiece with baby's breath perfectly added in to complete the look surrounded by delicate candlelight, creating layers of texture and glow.
-
-[![The Broadmoor Colorado Spings, CO Wedding Florals by Elizabeth Rose Florals](/images/the-broadmoor-colorado-springs-wedding-florals-9.jpg)](/images/the-broadmoor-colorado-springs-wedding-florals-9.jpg)
-
-[![The Broadmoor Colorado Spings, CO Wedding Florals by Elizabeth Rose Florals](/images/the-broadmoor-colorado-springs-wedding-florals-8.jpg)](/images/the-broadmoor-colorado-springs-wedding-florals-8.jpg)
-
-[![The Broadmoor Colorado Spings, CO Wedding Florals by Elizabeth Rose Florals](/images/broadmoor_wedding_florals__Eleanor&Sam_ReceptionDetails&CocktailHour_0054_(2048).jpg)](/images/broadmoor_wedding_florals__Eleanor&Sam_ReceptionDetails&CocktailHour_0054_\(2048\).jpg)
-
-#### **The Bridal Table: Whimsical Florals**
-
 The head table was a delightful display of hand-selected whimsical bud vases, each paired with light, airy florals that enhanced the fresh, garden-inspired atmosphere. Softly glowing taper candles and vintage-inspired lamps—carefully chosen by the bride—added warmth and charm, creating an eclectic yet cohesive tablescape that felt both intimate and enchanting.
 
-![The Broadmoor Colorado Spings Wedding Florals Summer 2025](/images/the-broadmoor-colorado-springs-wedding-florals-1.jpg)
-
-![The Broadmoor Colorado Spings Wedding Florals Summer 2025](/images/the-broadmoor-colorado-springs-wedding-florals-6.jpg)
+| ![](/images/20250503-BAY04726.jpg) | ![](/images/20250503-BAY04646.jpg) | ![](/images/20250503-BAY04630.jpg) |
+| --- | --- | --- |
 
 #### **A Note on Design Philosophy**
 
