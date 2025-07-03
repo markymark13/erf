@@ -29,7 +29,7 @@ The ground arbor lovingly embraced the couple, surrounding them in a cascade of 
 | ![](/images/elizabeth-rose-florals-colorado-wedding-3.jpg) | ![](/images/20250503-BAY03227.jpg) | ![](/images/20250503-BAY03064.jpg) |
 | --- | --- | --- |
 
-**Reception:**
+**Reception: Where Whimsy Meets Elegance**
 
 That same natural, whimsical energy carried into the reception. Moss was woven into the centerpieces alongside vintage-style lamps selected and rented by the bride through Dizzy and Co., creating a cohesive and eclectic look. These intentionally chosen elements forged a seamless connection between ceremony and celebration, complemented by florals that felt uniquely whimsical, lighthearted, and undeniably elegant.
 
