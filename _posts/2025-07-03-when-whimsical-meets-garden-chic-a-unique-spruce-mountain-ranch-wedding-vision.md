@@ -4,6 +4,7 @@ date: 2025-07-03
 layout: post
 title: "When Whimsical Meets Garden Chic: A Unique Spruce Mountain Ranch Wedding
   Vision"
+featured_image: /images/Spruce Mountain Ranch Bridesmaid Bouquets.jpg
 ---
 Set against the backdrop of [Spruce Mountain Ranch](https://sprucemountainevents.com/) in Larkspur, Colorado, K and C’s wedding was a true celebration of love, whimsy and individuality. Their vision was a fresh, unique twist on floral tradition, blending the charm of “just-picked-from-the-garden” feel with a playful, Dr. Seuss-inspired flair. The color palette of lilac, chartreuse, and whites brought a lively and delicate harmony to the overall aesthetic.  Every floral detail—from the bride’s bouquet to the reception centerpieces—was thoughtfully curated to create an eclectic yet cohesive look, tying together the entire event with the beauty and charm of nature.
 
