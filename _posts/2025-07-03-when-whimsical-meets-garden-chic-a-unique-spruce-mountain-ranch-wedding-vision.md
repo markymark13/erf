@@ -1,6 +1,6 @@
 ---
 published: false
-date: 2025-07-03
+date: 2025-07-05
 layout: post
 title: "When Whimsical Meets Garden Chic: A Unique Spruce Mountain Ranch Wedding
   Vision"
