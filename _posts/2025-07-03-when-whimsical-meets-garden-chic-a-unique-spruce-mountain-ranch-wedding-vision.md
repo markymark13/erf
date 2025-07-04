@@ -34,7 +34,7 @@ The result was an unforgettable **Spruce Mountain Ranch wedding**—a perfect re
 
 The head table was a delightful display of hand-selected whimsical bud vases, each paired with light, airy florals that enhanced the fresh, garden-inspired atmosphere. Softly glowing taper candles and vintage-inspired lamps—carefully chosen by the bride—added warmth and charm, creating an eclectic yet cohesive tablescape that felt both intimate and enchanting.
 
-| ![](/images/Spruce%20Mountain%20Ranch%20Reception%20Flowers.jpg) | ![](/images/20250503-BAY04646.jpg)<br><br>![](/images/ERF%20Reception.jpg) | ![](/images/Spruce%20Mountain%20Reception.jpg)<br><br>![](/images/20250503-BAY04630.jpg) |
+| ![](/images/Spruce%20Mountain%20Ranch%20Reception%20Flowers.jpg) | ![](/images/ERF%20Reception.jpg) | ![](/images/Spruce%20Mountain%20Reception.jpg)<br><br>![](/images/20250503-BAY04630.jpg) |
 | --- | --- | --- |
 
 #### **A Note on Design Philosophy**
