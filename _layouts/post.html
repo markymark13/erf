@@ -67,6 +67,11 @@ layout: default
         font-size: 16px;
         line-height: 1.6;
     }
+
+     /* Only add padding to images in blog content that are NOT inside .gallery-img */
+    .blog-content img:not(.gallery-img img) {
+        padding: 10px;
+    }
 </style>
 <link href="/modules/magnific-popup/magnific-popup.css" rel="stylesheet">
 
