@@ -72,6 +72,16 @@ layout: default
     .blog-content img:not(.gallery-img img) {
         padding: 10px;
     }
+
+    /* Make all images inside Markdown tables uniform size and crop as needed */
+table img {
+  width: 340px;         /* or your preferred width */
+  height: 500px;        /* or your preferred height */
+  object-fit: cover;    /* crop to fill the box */
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+}
 </style>
 <link href="/modules/magnific-popup/magnific-popup.css" rel="stylesheet">
 
