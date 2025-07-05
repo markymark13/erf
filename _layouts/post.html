@@ -82,6 +82,20 @@ table img {
   display: block;
   margin: 0 auto;
 }
+/* Responsive fix for mobile */
+@media (max-width: 600px) {
+  table img {
+  width: 140px;         /* or your preferred width */
+  height: 300px;        /* or your preferred height */
+  object-fit: cover;    /* crop to fill the box */
+  object-position: center;
+  }
+  table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+  }
+}
 </style>
 <link href="/modules/magnific-popup/magnific-popup.css" rel="stylesheet">
 
