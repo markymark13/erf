@@ -29,7 +29,7 @@ The ground arbor lovingly embraced the couple, surrounding them in a cascade of 
 
 That same natural, whimsical energy carried into the reception. Moss was woven into the centerpieces alongside vintage-style lamps selected and rented by the bride through Dizzy and Co., creating a cohesive and eclectic look. These intentionally chosen elements forged a seamless connection between ceremony and celebration, complemented by florals that felt uniquely whimsical, lighthearted, and undeniably elegant.
 
-The result was an unforgettable **Spruce Mountain Ranch wedding**, a perfect reflection of the couple’s one-of-a-kind love story and distinct creative vision.
+The result was an unforgettable Spruce Mountain Ranch wedding, a perfect reflection of the couple’s one-of-a-kind love story and distinct creative vision.
 
 The head table was a delightful display of hand-selected whimsical bud vases, each paired with light, airy florals that enhanced the fresh, garden-inspired atmosphere. Softly glowing taper candles and vintage-inspired lamps—carefully chosen by the bride—added warmth and charm, creating an eclectic yet cohesive tablescape that felt both intimate and enchanting.
 
@@ -41,7 +41,7 @@ The head table was a delightful display of hand-selected whimsical bud vases, ea
 
 Floral design, to us, is more than arrangement—it’s artful storytelling, where every bloom plays a role. With K & C’s wedding, we were honored to bring that story to life, with care, curiosity and creativity.
 
-If you’re planning a **Spruce Mountain Ranch wedding** and you’re drawn to whimsical, eclectic floral design, I’d love to connect. Please reach out here.
+If you’re planning a Spruce Mountain Ranch wedding and you’re drawn to whimsical, eclectic floral design, I’d love to connect. Please reach out here.
 
 * * *
 
