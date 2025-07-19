@@ -1,5 +1,6 @@
 ---
 published: true
+date: 2025-07-19
 layout: post
 title: A Night at Ferrari:  A Celebration of Innovation and Elegance
 featured_image: /images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-27-1.jpg
