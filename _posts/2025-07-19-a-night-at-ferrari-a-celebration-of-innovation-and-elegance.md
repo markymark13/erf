@@ -17,7 +17,9 @@ Interspersed candles flickered softly, adding warmth and drama to the setting. T
 
 ![](/images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-24-1.jpg)
 
-![](/images/Screenshot%202025-07-19%20at%208.38.05%E2%80%AFAM.png)
+![](/images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-13.jpg)
+
+![](/images/Screenshot%202025-07-19%20at%209.05.29%E2%80%AFAM.png)
 
 **Lounge Florals: Refined Drama in Every Detail**
 
@@ -43,6 +45,6 @@ Event Planner: [Van Halen Events](https://vanhalenevents.com/)
 
 Florals: [Elizabeth Rose Florals](https://elizabethroseflorals.com/)
 
-Photographer: [Diana Coulter](https://dianacoulter.com/) (all photos except the second one)
+Photographer: [Diana Coulter](https://dianacoulter.com/) (all photos except the third one)
 
 Rentals: [Event Rents](https://eventrents.com/)
