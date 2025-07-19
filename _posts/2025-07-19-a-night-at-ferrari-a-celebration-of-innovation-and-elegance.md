@@ -5,7 +5,7 @@ layout: post
 title: A Night at Ferrari:  A Celebration of Innovation and Elegance
 featured_image: /images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-27.jpg
 ---
-Ferrari’s exclusive holiday event in Highlands Ranch was a masterclass in luxury and precision, where cutting-edge design met timeless Italian craftsmanship. The evening unfolded like a symphony with an immersive experience framed by sleek and modern floral arrangements that echoed Ferrari’s iconic red.
+Ferrari of Denver's exclusive holiday event in Highlands Ranch was a masterclass in luxury and precision, where cutting-edge design met timeless Italian craftsmanship. The evening unfolded like a symphony with an immersive experience framed by sleek and modern floral arrangements that echoed Ferrari’s iconic red.
 
 The client’s vision was clear: bold, elegant, and unmistakably Ferrari. Our floral design told a story of passion and innovation, combining deep red roses, anthurium, and accents of glossy red tones to emulate the exquisite Ferrari models. The goal was to transform Ferrari’s legendary location into a refined space that honored the brand’s legacy.
 
@@ -40,11 +40,8 @@ If you’re planning a luxury corporate event and want a floral design that embo
 
 **Event Vendors**
 
- Venue: [Ferrari of Denver](https://www.ferrariofdenver.com/?utm_source=google&utm_medium=cpc&utm_campaign=ferrari_of_denver_brand&ddcref=fluency&tcdcmpid=1662579&tcdadid=680126094388&tcdkwid=1967100948&gad_source=1&gad_campaignid=20752807914&gbraid=0AAAAApbbBCne0hPFDMWPDVqM61ctRw8gW&gclid=Cj0KCQjwhO3DBhDkARIsANxrhTpgAb2JLCR4bEusws7GIedZe1BffVKuBlGD_fS_77W-NEEPR7Pp_DYaAgLWEALw_wcB)  
-Event Planner: [Van Halen Events](https://vanhalenevents.com/)
-
-Florals: [Elizabeth Rose Florals](https://elizabethroseflorals.com/)
-
-Photographer: [Diana Coulter](https://dianacoulter.com/) (all photos except the third one)
-
-Rentals: [Event Rents](https://eventrents.com/)
+**Venue:** [Ferrari of Denver](https://www.ferrariofdenver.com/?utm_source=google&utm_medium=cpc&utm_campaign=ferrari_of_denver_brand&ddcref=fluency&tcdcmpid=1662579&tcdadid=680126094391&tcdkwid=1967100948&gad_source=1&gad_campaignid=20752807914&gbraid=0AAAAApbbBCne0hPFDMWPDVqM61ctRw8gW&gclid=Cj0KCQjwhO3DBhDkARIsANxrhTrESmF7sXw-9TvrHa2gJ28qqd0gB0lY510q_zjgUmr6e2Zae_SZeL8aAmI6EALw_wcB)  
+**Event Planner:** [Van Halen Events](https://vanhalenevents.com/)  
+**Florals:** [Elizabeth Rose Florals](https://elizabethroseflorals.com/)  
+**Photographer:** [Diana Coulter](https://dianacoulter.com/) _(all photos except the third one)_  
+**Rentals:** [Event Rents](https://eventrents.com/)
