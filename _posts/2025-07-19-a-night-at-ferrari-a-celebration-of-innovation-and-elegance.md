@@ -15,6 +15,8 @@ Each table centerpiece were bold statements of crimson and dark red roses mixed 
 
 Interspersed candles flickered softly, adding warmth and drama to the setting. The centerpieces were not only a visual focal point but a reflection of Ferrari’s signature blend of power and elegance.
 
+![](/images/Screenshot%202025-07-19%20at%208.38.05%E2%80%AFAM.png)
+
 ![](/images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-24-1.jpg)
 
 **Lounge Florals: Refined Drama in Every Detail**
