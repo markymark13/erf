@@ -43,6 +43,6 @@ Event Planner: [Van Halen Events](https://vanhalenevents.com/)
 
 Florals: [Elizabeth Rose Florals](https://elizabethroseflorals.com/)
 
-Photographer: [Diana Coulter](https://dianacoulter.com/)
+Photographer: [Diana Coulter (all photos except the first one)](https://dianacoulter.com/)
 
 Rentals: [Event Rents](https://eventrents.com/)
