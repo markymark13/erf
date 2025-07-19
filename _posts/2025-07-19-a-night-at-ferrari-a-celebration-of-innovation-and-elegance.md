@@ -24,13 +24,10 @@ Interspersed candles flickered softly, adding warmth and drama to the setting. T
   
 Strategically placed throughout the lounge areas, these arrangements brought an intimate, refined touch to the space. Designed to complement the centerpieces, the florals featured the same rich crimson palette of deep red roses and modern, textured blooms arranged with effortless sophistication. These were quiet moments of drama with an intentional design detail that deepened the event’s immersive luxury.
 
-![](/images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-26.jpg)
-
-![](/images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-49.jpg)
-
-![](/images/Ferrari_Van_Halen_Events_by_Diana_Coulter-15.jpeg)
-
-![](/images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-27.jpg)
+|     |     |     |
+| --- | --- | --- |
+| ![](/images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-26.jpg) | ![](/images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-49.jpg) | ![](/images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-27.jpg) |
+|     |     |     |
 
 **Design Philosophy: Crafting an Experience Through Florals**
 
