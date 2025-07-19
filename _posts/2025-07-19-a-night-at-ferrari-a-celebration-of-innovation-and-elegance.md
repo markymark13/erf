@@ -3,7 +3,7 @@ published: true
 date: 2025-07-19
 layout: post
 title: A Night at Ferrari:  A Celebration of Innovation and Elegance
-featured_image: /images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-27-1.jpg
+featured_image: /images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-27.jpg
 ---
 Ferrari’s exclusive holiday event in Highlands Ranch was a masterclass in luxury and precision, where cutting-edge design met timeless Italian craftsmanship. The evening unfolded like a symphony with an immersive experience framed by sleek and modern floral arrangements that echoed Ferrari’s iconic red.
 
