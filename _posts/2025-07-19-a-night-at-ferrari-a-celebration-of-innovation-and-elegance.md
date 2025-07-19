@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: A Night at Ferrari:  A Celebration of Innovation and Elegance
+featured_image: /images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-27-1.jpg
 ---
 Ferrari’s exclusive holiday event in Highlands Ranch was a masterclass in luxury and precision, where cutting-edge design met timeless Italian craftsmanship. The evening unfolded like a symphony with an immersive experience framed by sleek and modern floral arrangements that echoed Ferrari’s iconic red.
 
@@ -15,8 +16,10 @@ Interspersed candles flickered softly, adding warmth and drama to the setting. T
 
 ![](/images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-24-1.jpg)
 
-\*\*Lounge Florals: Refined Drama in Every Detail  
-\*\*Strategically placed throughout the lounge areas, these arrangements brought an intimate, refined touch to the space. Designed to complement the centerpieces, the florals featured the same rich crimson palette of deep red roses and modern, textured blooms arranged with effortless sophistication. These were quiet moments of drama with an intentional design detail that deepened the event’s immersive luxury.
+**Lounge Florals: Refined Drama in Every Detail**
+
+  
+Strategically placed throughout the lounge areas, these arrangements brought an intimate, refined touch to the space. Designed to complement the centerpieces, the florals featured the same rich crimson palette of deep red roses and modern, textured blooms arranged with effortless sophistication. These were quiet moments of drama with an intentional design detail that deepened the event’s immersive luxury.
 
 ![](/images/Ferrari_Van_Halen_Events_Holiday_Party_by_Diana_Coulter-26.jpg)
 
@@ -30,7 +33,7 @@ Interspersed candles flickered softly, adding warmth and drama to the setting. T
 
 We are proud to be a corporate partner with Ferrari. Florals in this setting transcend decoration—they were a key element in telling Ferrari’s story. Each arrangement was crafted with intention, designed to enhance the sensory experience and evoke the spirit of innovation and passion that defines the brand.
 
-If you’re planning a luxury corporate event and want a floral design that embodies strength, sophistication, and artistry, I’d love to partner with you. Please reach out here.
+If you’re planning a luxury corporate event and want a floral design that embodies strength, sophistication, and artistry, I’d love to partner with you. Please reach out [here](https://elizabethroseflorals.com/contact/).
 
 **Event Vendors**
 
